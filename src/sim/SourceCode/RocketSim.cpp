@@ -58,7 +58,7 @@ int main()
 	do {
 		Batch >> Temp;
 		BatchFile.push_back(Temp);
-	//	cout << BatchFile.size() << " " << BatchFile[BatchFile.size() - 1] << endl;
+//		cout << BatchFile.size() << " " << BatchFile[BatchFile.size() - 1] << endl;
 	} while (!Batch.eof());
 
 	//	Run Menu to Generate Data
@@ -101,6 +101,10 @@ int main()
 		//  Transfer Batch File to {RocketPerformance}
 		if (BatchFile[0] != 0) {
 			RocketDefinition.resize(BatchLength);
+			/* Edits by John Morris, 8 Dec 2022
+             * cout << "Starting from line: " << iBatch * BatchSize + 1 << " | " << BatchFile[iBatch * BatchSize + 1] << endl;
+             * cout << "Ending on line: " << iBatch * BatchSize + 1 + BatchLength << endl << endl;
+			 */
 			for (int jBatch = 0; jBatch < BatchLength; jBatch++)
 				RocketDefinition[jBatch] = BatchFile[iBatch * BatchSize + jBatch + 1];
 			logout << "Running a Batch File - Rocket Design " << iBatch + 1 << endl << endl;

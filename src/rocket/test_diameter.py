@@ -1,6 +1,6 @@
-from src.diameter.PackCircles import PackCircles
+from src.rocket.PackCircles import PackCircles
 
-def t_diameter():
+def test_diameter():
     N = 2
     Radius = 0.5
     offset = 0
@@ -11,4 +11,4 @@ def t_diameter():
     obj.plotCircles(obj.root)
 
 if __name__ == '__main__':
-    t_diameter()
+    test_diameter()

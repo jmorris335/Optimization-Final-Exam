@@ -1,7 +1,8 @@
-from src.diameter.test_diameter import t_diameter
+from src.rocket.test_diameter import test_diameter
+from src.launch.test_launch import test_BatchLaunch
 
 def main():
-    t_diameter()
+    test_BatchLaunch()
 
 if __name__ == '__main__':
     main()
