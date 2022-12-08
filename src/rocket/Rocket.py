@@ -96,6 +96,30 @@ class Rocket:
         self.defineBounds()
         return self.bounds[var]
 
+    #Simulation
+    def addResults(self, results_list: list=None, orbital_altitude: tuple=None,
+                   orbital_velocity: tuple=None,  injection_velocity: tuple=None,
+                   max_acceleration: tuple=None, max_pressure: tuple=None):
+        if (not results_list is None) and (len(results_list) >= 5):
+            self.orbital_altitude = results_list[0]
+            self.orbital_velocity = results_list[1]
+            self.injection_velocity = results_list[2]
+            self.max_acceleration = results_list[3]
+            self.max_pressure = results_list[4]
+        else: 
+            if not orbital_altitude is None:
+                self.orbital_altitude = orbital_altitude
+            if not orbital_velocity is None:
+                self.orbital_velocity = orbital_velocity
+            if not injection_velocity is None:
+                self.injection_velocity = injection_velocity
+            if not max_acceleration is None:
+                self.max_acceleration = max_acceleration
+            if not max_pressure is None:
+                self.max_pressure = max_pressure
+        pass
+
+
 
 
     

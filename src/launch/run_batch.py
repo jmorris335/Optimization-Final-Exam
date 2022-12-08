@@ -1,19 +1,22 @@
 from subprocess import run
 
 from src.rocket.Rocket import Rocket
+from src.launch.launch import runSim
 
 BATCH_LENGTH = 48 #Defined in Constants.h
 BATCH_SIZE = 66 #Defined in Constants.h
 
 def writeBatch(rockets: list):
-    file = open("Batch.txt", "w")
+    file = open("./src/sim/Batch.txt", "w")
     file.write('{}\n'.format(len(rockets)))
     for rocket in rockets:
         file.write(writeRocket(rocket))
     file.close()
 
-    run('rm Batch.txt', cwd='./src/sim', shell=True)
-    run('mv Batch.txt ./src/sim', shell=True)
+def runBatch(rockets: list=None):
+    if not rockets == None:
+        writeBatch(rockets)
+    runSim()
 
 def writeRocket(r: Rocket) -> str:
     out =  '{}\n'.format(r.num_stages)
