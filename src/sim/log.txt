@@ -1,82 +1,80 @@
 Running a Batch File - Rocket Design 1
 
 {RocketDefintion} = {
-2
-0
-0
-1
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
-60
-1
-70
-0.8
-90
-0.8
-100
-1
-240
-0
-245
-1
-485
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
 5
-1000
+0
+30
+1
+141
+45
+1
+223
+6
+1
+203
+41
+1
+229
+21
+1
+201
+35
+0
+1
+2.34263
+1
+3.74065
+0.947199
+12.6787
+0.947199
+21.3583
+1
+205.117
+0
+220.665
+1
+391.731
+0
+405.237
+1
+491.703
+0
+498.133
+1
+617.108
+0
+833.463
+1
+862.478
+0
+10
+28259.7
 0
 0
+1.47172e+07
+2.00683e+06
+33288.2
+4549.13
+1.03399e+06
+133537
+867156
+85136.6
+294887
+70454.6
 0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-240.5
-485.5
-0
-0
-0
+205.617
+392.231
+492.203
+617.608
+862.978
  }
 
-Rocket Crashes into the Ground!
-
 Flight Statistics Summary
-   Altitude at Orbit Insertion = 0.00295101 km at time = 0.1 sec
-   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
-   Final Velocity at Injection = 0 m/s at time = 0 sec
-   Maximum Acceleration = 0 m/s^2 at time = 0 sec
-   Maximum Dynamic Pressure = 35.4644 Pa at time = 0.1 sec
+   Altitude at Orbit Insertion = 1042.37 km at time = 617.1 sec
+   Velocity at Orbit Insertion = 3816.56 m/s at time = 617.1 sec
+   Final Velocity at Injection = 6491.01 m/s at time = 862.5 sec
+   Maximum Acceleration = 290.792 m/s^2 at time = 862.4 sec
+   Maximum Dynamic Pressure = 23993.3 Pa at time = 617.1 sec
 
 
 Rocket Flight Complete!
@@ -84,82 +82,80 @@ Rocket Flight Complete!
 Running a Batch File - Rocket Design 2
 
 {RocketDefintion} = {
-2
-0
-0
-1
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
-60
-1
-70
-0.8
-90
-0.8
-100
-1
-240
-0
-245
-1
-485
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
 5
-1000
+0
+26
+1
+145
+36
+1
+219
+23
+1
+224
+22
+1
+223
+0
+1
+221
+19
+0
+1
+4.6035
+1
+18.4183
+0.313554
+23.1895
+0.313554
+31.0764
+1
+42.2796
+0
+51.9001
+1
+138.069
+0
+146.082
+1
+314.572
+0
+334.516
+1
+470.622
+0
+674.642
+1
+680.598
+0
+10
+35719.7
 0
 0
+1.19144e+06
+133588
+375308
+66133.9
+197089
+26577
 0
 0
+20146.9
+10640.5
 0
-0
-0
-0
-0
-0
-0
-0
-0
-240.5
-485.5
-0
-0
-0
+42.7796
+138.569
+315.072
+471.122
+681.098
  }
 
-Rocket Crashes into the Ground!
-
 Flight Statistics Summary
-   Altitude at Orbit Insertion = 0.00295101 km at time = 0.1 sec
-   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
-   Final Velocity at Injection = 0 m/s at time = 0 sec
-   Maximum Acceleration = 0 m/s^2 at time = 0 sec
-   Maximum Dynamic Pressure = 35.4644 Pa at time = 0.1 sec
+   Altitude at Orbit Insertion = 2482.7 km at time = 470.6 sec
+   Velocity at Orbit Insertion = 7866.91 m/s at time = 314.6 sec
+   Final Velocity at Injection = 7866.91 m/s at time = 314.6 sec
+   Maximum Acceleration = 133.565 m/s^2 at time = 42.2 sec
+   Maximum Dynamic Pressure = 142614 Pa at time = 470.6 sec
 
 
 Rocket Flight Complete!
@@ -167,82 +163,4115 @@ Rocket Flight Complete!
 Running a Batch File - Rocket Design 3
 
 {RocketDefintion} = {
-2
-0
-0
-1
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
-60
-1
-70
-0.8
-90
-0.8
-100
-1
-240
-0
-245
-1
-485
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
 5
-1000
+0
+3
+1
+107
+36
+1
+233
+9
+1
+208
+46
+1
+239
+8
+1
+215
+13
+0
+1
+55.5375
+1
+59.0995
+0.741498
+70.3197
+0.741498
+76.7053
+1
+188.424
+0
+191.364
+1
+310.148
+0
+317.224
+1
+488.19
+0
+498.942
+1
+632.334
+0
+838.552
+1
+878.595
+0
+10
+25974.9
 0
 0
+1.30061e+06
+186342
+29572.9
+3915.58
+104929
+18420.7
+1.08409e+06
+90377.1
+15413.5
+3440.82
 0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-240.5
-485.5
-0
-0
-0
+188.924
+310.648
+488.69
+632.834
+879.095
  }
 
 Rocket Crashes into the Ground!
 
 Flight Statistics Summary
-   Altitude at Orbit Insertion = 0.00295101 km at time = 0.1 sec
+   Altitude at Orbit Insertion = 0.00298661 km at time = 0.1 sec
    Velocity at Orbit Insertion = 0 m/s at time = 0 sec
    Final Velocity at Injection = 0 m/s at time = 0 sec
    Maximum Acceleration = 0 m/s^2 at time = 0 sec
-   Maximum Dynamic Pressure = 35.4644 Pa at time = 0.1 sec
+   Maximum Dynamic Pressure = 9.48157 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 4
+
+{RocketDefintion} = {
+5
+0
+4
+1
+131
+23
+1
+202
+49
+1
+236
+41
+1
+224
+46
+1
+210
+22
+0
+1
+4.07903
+1
+15.3667
+0.784259
+24.4873
+0.784259
+38.9092
+1
+137.948
+0
+154.743
+1
+341.609
+0
+354.892
+1
+422.131
+0
+433.036
+1
+456.976
+0
+673.949
+1
+682.584
+0
+10
+40095.9
+0
+0
+1.9813e+06
+170615
+2.57541e+06
+258826
+48447.8
+9852.61
+81757.2
+31100.5
+15103.1
+11303.9
+0
+138.448
+342.109
+422.631
+457.476
+683.084
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299148 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 6.06067 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 5
+
+{RocketDefintion} = {
+5
+0
+25
+1
+139
+28
+1
+210
+28
+1
+239
+44
+1
+201
+19
+1
+214
+42
+0
+1
+39.0375
+1
+55.7387
+0.219842
+66.0741
+0.219842
+82.6306
+1
+163.72
+0
+168.502
+1
+214.212
+0
+216.072
+1
+281.588
+0
+301.221
+1
+476.191
+0
+706.553
+1
+730.563
+0
+10
+47653.3
+0
+0
+3.99713e+06
+469425
+41645.5
+16047.8
+2.95897e+06
+274590
+821978
+87276.1
+38780.5
+14578.2
+0
+164.22
+214.712
+282.088
+476.691
+731.063
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 976.97 km at time = 476.1 sec
+   Velocity at Orbit Insertion = 6785.68 m/s at time = 476.1 sec
+   Final Velocity at Injection = 6791.05 m/s at time = 476.2 sec
+   Maximum Acceleration = 114.807 m/s^2 at time = 281.5 sec
+   Maximum Dynamic Pressure = 23847.9 Pa at time = 476.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 6
+
+{RocketDefintion} = {
+5
+1
+18
+1
+124
+11
+1
+231
+43
+1
+224
+24
+1
+219
+48
+1
+212
+29
+0
+1
+13.7797
+1
+22.4889
+0.326718
+35.3554
+0.326718
+47.6309
+1
+105.633
+0
+118.537
+1
+293.505
+0
+309.694
+1
+453.959
+0
+471.014
+1
+481.864
+0
+721.442
+1
+723.554
+0
+10
+41144.4
+12967
+1167
+682091
+105525
+339212
+38265.7
+186122
+26853.5
+174137
+92899.1
+4017.3
+3466.1
+55.5
+106.133
+294.005
+454.459
+482.364
+724.054
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 22.5706 km at time = 157.8 sec
+   Velocity at Orbit Insertion = 309.743 m/s at time = 80 sec
+   Final Velocity at Injection = 309.743 m/s at time = 80 sec
+   Maximum Acceleration = 11.3351 m/s^2 at time = 104.6 sec
+   Maximum Dynamic Pressure = 24064.1 Pa at time = 157.8 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 7
+
+{RocketDefintion} = {
+5
+0
+8
+1
+102
+18
+1
+228
+34
+1
+214
+4
+1
+217
+8
+1
+226
+16
+0
+1
+10.9217
+1
+13.6763
+0.640858
+15.4687
+0.640858
+33.3933
+1
+152.051
+0
+158.93
+1
+296.852
+0
+302.849
+1
+317.651
+0
+330.477
+1
+362.127
+0
+572.742
+1
+614.917
+0
+10
+45706.8
+0
+0
+1.24301e+06
+137075
+166145
+20775.6
+2738.67
+1317.68
+111633
+10861.7
+495045
+76670
+0
+152.551
+297.352
+318.151
+362.627
+615.417
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 53.9555 km at time = 290.9 sec
+   Velocity at Orbit Insertion = 490.133 m/s at time = 152.1 sec
+   Final Velocity at Injection = 490.133 m/s at time = 152.1 sec
+   Maximum Acceleration = 13.803 m/s^2 at time = 152 sec
+   Maximum Dynamic Pressure = 19276.5 Pa at time = 290.9 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 8
+
+{RocketDefintion} = {
+5
+0
+23
+1
+119
+7
+1
+219
+46
+1
+235
+6
+1
+217
+15
+1
+226
+44
+0
+1
+31.6639
+1
+44.8977
+0.732232
+54.5641
+0.732232
+65.657
+1
+194.654
+0
+203.555
+1
+385.527
+0
+396.104
+1
+444.25
+0
+456.514
+1
+553.018
+0
+760.871
+1
+792.406
+0
+10
+13446.5
+0
+0
+747944
+63323.6
+1.4931e+06
+187266
+2825.93
+514.884
+627473
+51340.6
+1.04792e+06
+187623
+0
+195.154
+386.027
+444.75
+553.518
+792.906
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00296481 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 29.372 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 9
+
+{RocketDefintion} = {
+5
+1
+21
+1
+120
+41
+1
+238
+32
+1
+203
+35
+1
+212
+17
+1
+236
+36
+0
+1
+13.0417
+1
+23.8188
+0.473159
+30.2059
+0.473159
+48.703
+1
+50.5274
+0
+66.6798
+1
+128.057
+0
+133.336
+1
+326.389
+0
+333.317
+1
+517.796
+0
+743.71
+1
+744.963
+0
+10
+16658.9
+33638
+2341
+450307
+63726.4
+623819
+60134.8
+1.90604e+06
+189799
+32489.5
+4264.03
+6621.87
+5990.51
+91.5
+51.0274
+128.557
+326.889
+518.296
+745.463
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.0029969 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 1.99023 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 10
+
+{RocketDefintion} = {
+5
+0
+19
+1
+128
+25
+1
+204
+45
+1
+218
+23
+1
+227
+4
+1
+213
+45
+0
+1
+2.03713
+1
+15.5724
+0.503607
+26.308
+0.503607
+37.1729
+1
+170.732
+0
+189.2
+1
+201.771
+0
+205.225
+1
+251.442
+0
+254.691
+1
+270.747
+0
+504.869
+1
+543.635
+0
+10
+48145.2
+0
+0
+2.75688e+06
+255139
+222692
+78995.7
+128589
+13784.3
+21231.2
+6202.31
+49008.3
+10630.2
+0
+171.232
+202.271
+251.942
+271.247
+544.135
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 436.199 km at time = 270.7 sec
+   Velocity at Orbit Insertion = 4145.14 m/s at time = 270.7 sec
+   Final Velocity at Injection = 4145.81 m/s at time = 270.8 sec
+   Maximum Acceleration = 78.62 m/s^2 at time = 201.7 sec
+   Maximum Dynamic Pressure = 30165 Pa at time = 270.7 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 11
+
+{RocketDefintion} = {
+5
+1
+22
+1
+122
+41
+1
+222
+10
+1
+207
+45
+1
+231
+27
+1
+239
+42
+0
+1
+24.0914
+1
+42.9981
+0.427901
+61.3428
+0.427901
+72.9719
+1
+88.4472
+0
+94.1468
+1
+199.519
+0
+200.702
+1
+217.457
+0
+223.165
+1
+281
+0
+494.157
+1
+498.192
+0
+10
+36994
+49300
+5100
+876817
+133283
+22070.3
+6264.47
+2753.61
+1245.64
+76368.4
+13906.9
+227573
+69746.1
+94.5
+88.9472
+200.019
+217.957
+281.5
+498.692
+ }
+
+Rocket runs out of Mass!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 195.618 km at time = 280.9 sec
+   Velocity at Orbit Insertion = 1491.28 m/s at time = 88.5 sec
+   Final Velocity at Injection = 1491.28 m/s at time = 88.5 sec
+   Maximum Acceleration = 69.8955 m/s^2 at time = 88.4 sec
+   Maximum Dynamic Pressure = 49948 Pa at time = 280.9 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 12
+
+{RocketDefintion} = {
+5
+1
+6
+1
+111
+18
+1
+208
+19
+1
+234
+18
+1
+229
+25
+1
+227
+5
+0
+1
+35.2025
+1
+50.8117
+0.707104
+67.5493
+0.707104
+83.0803
+1
+259.304
+0
+273.995
+1
+330.18
+0
+334.379
+1
+357.417
+0
+362.699
+1
+469.451
+0
+671.124
+1
+714.731
+0
+10
+49617.2
+184700
+14700
+8.24591e+06
+794141
+17432
+5689.4
+17400
+5788.89
+929030
+93701.3
+61351.9
+10331.6
+540.5
+259.804
+330.68
+357.917
+469.951
+715.231
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299552 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 3.18783 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 13
+
+{RocketDefintion} = {
+5
+0
+14
+1
+131
+44
+1
+226
+17
+1
+235
+31
+1
+219
+6
+1
+210
+38
+0
+1
+45.712
+1
+58.6603
+0.998912
+63.7742
+0.998912
+68.0255
+1
+143.064
+0
+152.242
+1
+219.035
+0
+231.778
+1
+428.31
+0
+446.143
+1
+588.979
+0
+807.124
+1
+821.113
+0
+10
+33181.8
+0
+0
+4.06672e+06
+346868
+806215
+102220
+54344.1
+5604.19
+155190
+21495.5
+30481.8
+19850.5
+0
+143.564
+219.535
+428.81
+589.479
+821.613
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1631.44 km at time = 588.9 sec
+   Velocity at Orbit Insertion = 4995.73 m/s at time = 588.9 sec
+   Final Velocity at Injection = 4998.17 m/s at time = 589 sec
+   Maximum Acceleration = 63.0556 m/s^2 at time = 219 sec
+   Maximum Dynamic Pressure = 28539.4 Pa at time = 588.9 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 14
+
+{RocketDefintion} = {
+5
+1
+13
+1
+119
+35
+1
+230
+4
+1
+230
+12
+1
+236
+13
+1
+209
+25
+0
+1
+20.2667
+1
+32.6873
+0.956234
+47.3599
+0.956234
+66.8985
+1
+216.047
+0
+231.789
+1
+270.127
+0
+289.81
+1
+430.797
+0
+440.199
+1
+458.883
+0
+669.665
+1
+697.232
+0
+10
+39263.4
+76600
+10500
+4.24678e+06
+354178
+5329.32
+1802.17
+46585.3
+7672.99
+5817.57
+2417.04
+66527.6
+39650.2
+114.5
+216.547
+270.627
+431.297
+459.383
+697.732
+ }
+
+Rocket runs out of Mass!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 428.135 km at time = 198.1 sec
+   Velocity at Orbit Insertion = 30797 m/s at time = 198.1 sec
+   Final Velocity at Injection = 30797 m/s at time = 198.1 sec
+   Maximum Acceleration = 96867.6 m/s^2 at time = 198 sec
+   Maximum Dynamic Pressure = 33862 Pa at time = 198.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 15
+
+{RocketDefintion} = {
+5
+1
+18
+1
+127
+2
+1
+202
+19
+1
+206
+10
+1
+235
+39
+1
+207
+37
+0
+1
+27.9774
+1
+36.0604
+0.625507
+55.0641
+0.625507
+58.612
+1
+166.576
+0
+177.554
+1
+243.337
+0
+251.893
+1
+344.969
+0
+346.042
+1
+485.786
+0
+720.795
+1
+753.905
+0
+10
+7177.34
+12967
+1167
+435961
+42441.5
+370019
+53797.7
+37682.8
+5106.14
+49233.3
+5633.02
+3571.16
+1121.01
+55.5
+167.076
+243.837
+345.469
+486.286
+754.405
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299539 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 3.16749 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 16
+
+{RocketDefintion} = {
+5
+1
+11
+1
+106
+38
+1
+237
+21
+1
+226
+39
+1
+209
+43
+1
+222
+28
+0
+1
+56.8993
+1
+74.5997
+0.491543
+90.5032
+0.491543
+107.945
+1
+274.064
+0
+286.567
+1
+360.299
+0
+365.953
+1
+369.364
+0
+372.417
+1
+518.951
+0
+743.913
+1
+764.551
+0
+10
+8169.26
+887618
+133143
+3.11622e+06
+283609
+71097.1
+10710.9
+194378
+111898
+329897
+84159
+23361.5
+14693.4
+140.5
+274.564
+360.799
+369.864
+519.451
+765.051
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299742 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 1.60836 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 17
+
+{RocketDefintion} = {
+5
+1
+2
+1
+101
+16
+1
+212
+14
+1
+228
+37
+1
+205
+32
+1
+220
+18
+0
+1
+22.778
+1
+41.4041
+0.92959
+49.4958
+0.92959
+68.3025
+1
+183.06
+0
+195.239
+1
+319.52
+0
+335.124
+1
+485.691
+0
+494.531
+1
+554.98
+0
+764.928
+1
+805.568
+0
+10
+44099.6
+226400
+11234
+1.30931e+06
+126616
+18564.2
+2904.76
+196469
+23769
+578633
+87306.2
+21881
+5787.48
+242.5
+183.56
+320.02
+486.191
+555.48
+806.068
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299712 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 1.91526 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 18
+
+{RocketDefintion} = {
+5
+1
+4
+1
+108
+7
+1
+231
+42
+1
+212
+38
+1
+204
+18
+1
+224
+8
+0
+1
+30.9244
+1
+37.9142
+0.867143
+40.7211
+0.867143
+54.2343
+1
+226.452
+0
+229.176
+1
+308.286
+0
+310.532
+1
+412.391
+0
+414.278
+1
+451.719
+0
+675.684
+1
+702.002
+0
+10
+21898.7
+273000
+33000
+842151
+112270
+157397
+24492.4
+42106.9
+7270.88
+211873
+40694.3
+15163.9
+5478.81
+140.5
+226.952
+308.786
+412.891
+452.219
+702.502
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 338.887 km at time = 451.7 sec
+   Velocity at Orbit Insertion = 3402.96 m/s at time = 451.7 sec
+   Final Velocity at Injection = 3417.37 m/s at time = 451.8 sec
+   Maximum Acceleration = 144.174 m/s^2 at time = 451.7 sec
+   Maximum Dynamic Pressure = 15990.6 Pa at time = 451.7 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 19
+
+{RocketDefintion} = {
+5
+0
+22
+1
+135
+1
+1
+221
+35
+1
+229
+5
+1
+234
+23
+1
+204
+2
+0
+1
+21.3677
+1
+40.7441
+0.397822
+59.4328
+0.397822
+66.3112
+1
+209.4
+0
+213.673
+1
+220.234
+0
+225.006
+1
+375.073
+0
+388.818
+1
+584.723
+0
+821.149
+1
+837.263
+0
+10
+38121.2
+0
+0
+55389.1
+5355.68
+39030.5
+19743
+259018
+24163.4
+142466
+16303
+11840.4
+3654.85
+0
+209.9
+220.734
+375.573
+585.223
+837.763
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00295811 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 33.699 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 20
+
+{RocketDefintion} = {
+5
+0
+7
+1
+110
+31
+1
+234
+0
+1
+209
+12
+1
+223
+45
+1
+233
+11
+0
+1
+7.9098
+1
+25.2604
+0.436665
+26.7774
+0.436665
+36.235
+1
+172.264
+0
+190.856
+1
+201.584
+0
+216.401
+1
+376.454
+0
+380.038
+1
+460.858
+0
+670.042
+1
+677.217
+0
+10
+9240.49
+0
+0
+46212.8
+5575.95
+0
+0
+98897.2
+23992.4
+126855
+25021.7
+4322.86
+2428.55
+0
+172.764
+202.084
+376.954
+461.358
+677.717
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00296552 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 28.171 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 21
+
+{RocketDefintion} = {
+5
+1
+27
+1
+144
+9
+1
+234
+12
+1
+226
+3
+1
+228
+5
+1
+213
+13
+0
+1
+48.0763
+1
+49.8465
+0.878843
+61.8094
+0.878843
+72.3031
+1
+265.429
+0
+279.21
+1
+430.089
+0
+433.215
+1
+469.631
+0
+471.267
+1
+650.354
+0
+882.981
+1
+900.56
+0
+10
+20222
+10271
+1541
+712978
+56729.9
+57990.7
+7295.6
+81253
+13518.7
+31324.1
+3565.68
+7613.86
+2586.21
+44.5
+265.929
+430.589
+470.131
+650.854
+901.06
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299487 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 3.66445 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 22
+
+{RocketDefintion} = {
+5
+1
+21
+1
+133
+0
+1
+209
+31
+1
+227
+47
+1
+232
+15
+1
+228
+38
+0
+1
+43.0241
+1
+59.2089
+0.595418
+77.2289
+0.595418
+93.3052
+1
+244.863
+0
+247.174
+1
+415.794
+0
+418.486
+1
+534.265
+0
+553.044
+1
+745.123
+0
+965.66
+1
+970.833
+0
+10
+31518.3
+33638
+2341
+0
+0
+266669
+62808.8
+1.43396e+06
+160617
+3350.63
+469.445
+16802.9
+10709.5
+91.5
+245.363
+416.294
+534.765
+745.623
+971.333
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00295333 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 41.8453 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 23
+
+{RocketDefintion} = {
+5
+0
+28
+1
+102
+49
+1
+203
+34
+1
+208
+2
+1
+206
+10
+1
+231
+27
+0
+1
+39.9004
+1
+43.1704
+0.60833
+50.9882
+0.60833
+65.8126
+1
+170.095
+0
+182.034
+1
+284.312
+0
+290.618
+1
+467.652
+0
+470.164
+1
+572.981
+0
+777.786
+1
+787.488
+0
+10
+26551.5
+0
+0
+3.73149e+06
+398906
+1.00493e+06
+121662
+4706.32
+811.579
+41364.9
+5378.88
+20226.4
+9748.25
+0
+170.595
+284.812
+468.152
+573.481
+787.988
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1733.31 km at time = 572.9 sec
+   Velocity at Orbit Insertion = 5388.32 m/s at time = 284.4 sec
+   Final Velocity at Injection = 5388.32 m/s at time = 284.4 sec
+   Maximum Acceleration = 107.7 m/s^2 at time = 284.3 sec
+   Maximum Dynamic Pressure = 17632.8 Pa at time = 572.9 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 24
+
+{RocketDefintion} = {
+5
+0
+11
+1
+136
+13
+1
+217
+29
+1
+201
+0
+1
+237
+31
+1
+238
+6
+0
+1
+33.4579
+1
+45.4566
+0.277504
+48.8435
+0.277504
+52.4753
+1
+104.662
+0
+111.412
+1
+254.676
+0
+267.071
+1
+340.116
+0
+357.525
+1
+508.38
+0
+744.566
+1
+759.306
+0
+10
+1301.85
+0
+0
+15183.2
+2629.31
+1.79599e+06
+142434
+0
+0
+205654
+23270.7
+30233.2
+4850.61
+0
+105.162
+255.176
+340.616
+508.88
+759.806
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00295202 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 34.9392 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 25
+
+{RocketDefintion} = {
+5
+1
+5
+1
+115
+30
+1
+236
+24
+1
+238
+43
+1
+214
+7
+1
+216
+3
+0
+1
+7.05301
+1
+17.2714
+0.65872
+21.1219
+0.65872
+29.5154
+1
+113.242
+0
+123.869
+1
+271.59
+0
+290.655
+1
+421.1
+0
+429.629
+1
+527.533
+0
+749.59
+1
+794.676
+0
+10
+23377.4
+170500
+12200
+1.95882e+06
+183987
+57564.8
+7930.73
+1.75882e+06
+148996
+19870.7
+3422.83
+4840.2
+1052.98
+605.5
+113.742
+272.09
+421.6
+528.033
+795.176
+ }
+
+Rocket runs out of Mass!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1100.94 km at time = 527.5 sec
+   Velocity at Orbit Insertion = 8767.16 m/s at time = 527.5 sec
+   Final Velocity at Injection = 48480.3 m/s at time = 597.2 sec
+   Maximum Acceleration = 194039 m/s^2 at time = 597.1 sec
+   Maximum Dynamic Pressure = 32149.7 Pa at time = 527.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 26
+
+{RocketDefintion} = {
+5
+0
+29
+1
+112
+21
+1
+207
+41
+1
+217
+19
+1
+201
+35
+1
+208
+1
+0
+1
+9.75149
+1
+27.7551
+0.979786
+39.1569
+0.979786
+48.4513
+1
+236.269
+0
+252.649
+1
+349.222
+0
+358.87
+1
+450.985
+0
+462.481
+1
+511.52
+0
+719.046
+1
+740.725
+0
+10
+30467.3
+0
+0
+1.34799e+07
+2.0629e+06
+9577.46
+1658.52
+758949
+62375.9
+462158
+82845
+507.542
+269.077
+0
+236.769
+349.722
+451.485
+512.02
+741.225
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299274 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 5.31306 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 27
+
+{RocketDefintion} = {
+5
+0
+13
+1
+138
+15
+1
+233
+41
+1
+216
+28
+1
+215
+1
+1
+237
+26
+0
+1
+44.5733
+1
+61.4245
+0.580013
+63.7704
+0.580013
+68.094
+1
+157.219
+0
+167.574
+1
+257.455
+0
+266.696
+1
+378.391
+0
+385.671
+1
+516.151
+0
+742.925
+1
+767.853
+0
+10
+32993.6
+0
+0
+1.32663e+06
+147241
+104005
+15562.4
+101575
+14005.6
+3432.13
+431.084
+34579.9
+9302.22
+0
+157.719
+257.955
+378.891
+516.651
+768.353
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1471.43 km at time = 516.1 sec
+   Velocity at Orbit Insertion = 4707.33 m/s at time = 378.4 sec
+   Final Velocity at Injection = 4707.33 m/s at time = 378.4 sec
+   Maximum Acceleration = 102.441 m/s^2 at time = 767.8 sec
+   Maximum Dynamic Pressure = 32656.7 Pa at time = 516.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 28
+
+{RocketDefintion} = {
+5
+0
+8
+1
+133
+46
+1
+223
+37
+1
+211
+30
+1
+213
+11
+1
+201
+33
+0
+1
+47.4978
+1
+50.5892
+0.256087
+54.7843
+0.256087
+68.6979
+1
+129.205
+0
+131.048
+1
+228.086
+0
+235.635
+1
+313.069
+0
+329.331
+1
+391.921
+0
+619.704
+1
+628.554
+0
+10
+18740.1
+0
+0
+3.69832e+06
+343375
+122450
+21917.6
+1.44958e+06
+246265
+18206.7
+3059.76
+119213
+54663.9
+0
+129.705
+228.586
+313.569
+392.421
+629.054
+ }
+
+Rocket runs out of Mass!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 34.4436 km at time = 196.3 sec
+   Velocity at Orbit Insertion = 511.344 m/s at time = 129.3 sec
+   Final Velocity at Injection = 511.344 m/s at time = 129.3 sec
+   Maximum Acceleration = 17.0406 m/s^2 at time = 129.2 sec
+   Maximum Dynamic Pressure = 22719.8 Pa at time = 196.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 29
+
+{RocketDefintion} = {
+5
+0
+3
+1
+135
+22
+1
+213
+23
+1
+231
+35
+1
+216
+27
+1
+230
+20
+0
+1
+37.4652
+1
+38.7823
+0.709937
+50.4756
+0.709937
+60.4197
+1
+88.5617
+0
+106.169
+1
+134.099
+0
+149.824
+1
+313.697
+0
+326.148
+1
+332.851
+0
+539.627
+1
+551.884
+0
+10
+34582.7
+0
+0
+551777
+68433.5
+19127.4
+4994.62
+259326
+29903.7
+12222.6
+7155.38
+13689.3
+8051.06
+0
+89.0617
+134.599
+314.197
+333.351
+552.384
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 245.39 km at time = 332.8 sec
+   Velocity at Orbit Insertion = 2074.15 m/s at time = 332.8 sec
+   Final Velocity at Injection = 2077.9 m/s at time = 332.9 sec
+   Maximum Acceleration = 37.5754 m/s^2 at time = 332.8 sec
+   Maximum Dynamic Pressure = 34543 Pa at time = 332.8 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 30
+
+{RocketDefintion} = {
+5
+1
+16
+1
+125
+42
+1
+211
+14
+1
+222
+11
+1
+226
+26
+1
+229
+32
+0
+1
+16.6706
+1
+20.7677
+0.854513
+29.1014
+0.854513
+48.7858
+1
+227.774
+0
+229.149
+1
+280.796
+0
+289.781
+1
+296.546
+0
+310.457
+1
+336.89
+0
+568.88
+1
+599.326
+0
+10
+13213.2
+12068
+1810
+3.36025e+06
+291296
+474510
+99963.7
+6705.45
+5589.29
+530395
+104289
+363741
+58795.6
+56.5
+228.274
+281.296
+297.046
+337.39
+599.826
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00298812 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 8.4508 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 31
+
+{RocketDefintion} = {
+5
+0
+15
+1
+104
+47
+1
+212
+44
+1
+237
+49
+1
+210
+23
+1
+203
+1
+0
+1
+12.0362
+1
+23.6448
+0.530603
+38.751
+0.530603
+41.8054
+1
+79.0688
+0
+84.9659
+1
+275.848
+0
+295.27
+1
+450.71
+0
+454.678
+1
+641.079
+0
+859.539
+1
+894.279
+0
+10
+3603.35
+0
+0
+1.07939e+06
+145232
+86828.6
+11239.2
+334531
+37483.8
+104104
+18359.5
+11029.9
+2205.92
+0
+79.5688
+276.348
+451.21
+641.579
+894.779
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 105.734 km at time = 225.6 sec
+   Velocity at Orbit Insertion = 1080.78 m/s at time = 79.1 sec
+   Final Velocity at Injection = 1080.78 m/s at time = 79.1 sec
+   Maximum Acceleration = 40.6481 m/s^2 at time = 79 sec
+   Maximum Dynamic Pressure = 27142.8 Pa at time = 225.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 32
+
+{RocketDefintion} = {
+5
+1
+10
+1
+117
+19
+1
+216
+26
+1
+201
+14
+1
+220
+17
+1
+208
+30
+0
+1
+36.6146
+1
+38.8972
+0.55237
+43.2142
+0.55237
+59.1652
+1
+77.5401
+0
+83.7118
+1
+131.935
+0
+142.15
+1
+197.912
+0
+208.28
+1
+210.084
+0
+429.23
+1
+449.099
+0
+10
+17889.8
+10800
+877.5
+313887
+38688.4
+44414.7
+9308.5
+207329
+34802.1
+4978.63
+4303.97
+14581.1
+8024.52
+49.5
+78.0401
+132.435
+198.412
+210.584
+449.599
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 150.958 km at time = 210 sec
+   Velocity at Orbit Insertion = 3572.05 m/s at time = 198 sec
+   Final Velocity at Injection = 3572.05 m/s at time = 198 sec
+   Maximum Acceleration = 130.385 m/s^2 at time = 197.9 sec
+   Maximum Dynamic Pressure = 26052.5 Pa at time = 210 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 33
+
+{RocketDefintion} = {
+5
+1
+20
+1
+140
+39
+1
+229
+5
+1
+239
+48
+1
+209
+20
+1
+203
+5
+0
+1
+52.253
+1
+66.8649
+0.55811
+76.8701
+0.55811
+81.9353
+1
+124.898
+0
+136.287
+1
+179.226
+0
+193.315
+1
+228.082
+0
+246.509
+1
+298.323
+0
+512.895
+1
+558.583
+0
+10
+5928.27
+20328
+3049
+30713.3
+3538.95
+77950.6
+10751
+1.74359e+06
+189600
+73648.1
+33233.2
+70165.9
+12141.9
+75.5
+125.398
+179.726
+228.582
+298.823
+559.083
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00295419 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 40.32 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 34
+
+{RocketDefintion} = {
+5
+1
+1
+1
+106
+38
+1
+208
+48
+1
+205
+7
+1
+221
+47
+1
+236
+18
+0
+1
+42.1533
+1
+50.0799
+0.414395
+66.723
+0.414395
+69.4992
+1
+266.71
+0
+270.398
+1
+425.131
+0
+437.175
+1
+479.686
+0
+484.218
+1
+611.146
+0
+839.515
+1
+888.895
+0
+10
+44519.3
+51313
+7697
+3.07799e+06
+280777
+100235
+18535.9
+92130.9
+16546.7
+565637
+64528.7
+16409.3
+3965.51
+94.5
+267.21
+425.631
+480.186
+611.646
+889.395
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00298867 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 8.65862 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 35
+
+{RocketDefintion} = {
+5
+0
+9
+1
+124
+5
+1
+226
+25
+1
+219
+7
+1
+202
+3
+1
+233
+49
+0
+1
+24.8744
+1
+39.9884
+0.899355
+54.1012
+0.899355
+62.0873
+1
+201.718
+0
+221.076
+1
+362.353
+0
+380.775
+1
+499.852
+0
+504.543
+1
+674.239
+0
+899.443
+1
+910.162
+0
+10
+5396.5
+0
+0
+653916
+73438.2
+2.43248e+06
+242684
+153035
+23002.6
+143603
+14803.9
+23756.8
+11151.4
+0
+202.218
+362.853
+500.352
+674.739
+910.662
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00296558 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 28.0971 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 36
+
+{RocketDefintion} = {
+5
+0
+29
+1
+126
+11
+1
+215
+32
+1
+221
+17
+1
+236
+29
+1
+228
+14
+0
+1
+14.9741
+1
+19.3771
+0.51992
+32.8084
+0.51992
+37.607
+1
+45.6173
+0
+58.9774
+1
+170.185
+0
+174.663
+1
+366.554
+0
+372.588
+1
+538.897
+0
+776.093
+1
+812.091
+0
+10
+43026.3
+0
+0
+1.15173e+06
+180035
+94508.4
+12659.9
+304782
+30761.6
+77708.5
+10186.7
+20639.2
+5015.87
+0
+46.1173
+170.685
+367.054
+539.397
+812.591
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1217.49 km at time = 538.8 sec
+   Velocity at Orbit Insertion = 3798.73 m/s at time = 538.8 sec
+   Final Velocity at Injection = 3799.68 m/s at time = 538.9 sec
+   Maximum Acceleration = 100.363 m/s^2 at time = 45.6 sec
+   Maximum Dynamic Pressure = 145068 Pa at time = 538.8 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 37
+
+{RocketDefintion} = {
+5
+1
+19
+1
+114
+14
+1
+239
+11
+1
+225
+25
+1
+211
+30
+1
+206
+9
+0
+1
+51.0379
+1
+59.6084
+0.916857
+66.9793
+0.916857
+72.5034
+1
+142.937
+0
+151.395
+1
+313.772
+0
+332.479
+1
+459.322
+0
+468.749
+1
+557.525
+0
+786.346
+1
+809.046
+0
+10
+20866.9
+13807
+2071
+257482
+37220.9
+1.81129e+06
+148021
+69346.2
+15437.7
+1.63995e+06
+260366
+9972.71
+2822.05
+64.5
+143.437
+314.272
+459.822
+558.025
+809.546
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00296051 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 29.9525 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 38
+
+{RocketDefintion} = {
+5
+1
+23
+1
+143
+21
+1
+204
+2
+1
+223
+9
+1
+203
+34
+1
+204
+48
+0
+1
+53.3106
+1
+58.7544
+0.298496
+65.4082
+0.298496
+71.2625
+1
+138.815
+0
+155.991
+1
+350.442
+0
+361.332
+1
+445.978
+0
+459.054
+1
+657.955
+0
+861.356
+1
+908.408
+0
+10
+14318
+54400
+5400
+926528
+103632
+109683
+10902.5
+26412.2
+5081.46
+1.90612e+06
+188416
+691544
+117892
+84.5
+139.315
+350.942
+446.478
+658.455
+908.908
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00298017 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 15.7154 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 39
+
+{RocketDefintion} = {
+5
+1
+11
+1
+132
+3
+1
+218
+7
+1
+229
+1
+1
+230
+35
+1
+238
+11
+0
+1
+41.3701
+1
+61.3364
+0.686732
+66.7991
+0.686732
+86.0333
+1
+211.241
+0
+215.614
+1
+250.086
+0
+256.601
+1
+266.633
+0
+274.45
+1
+315.615
+0
+554.811
+1
+597.275
+0
+10
+24680.7
+887618
+133143
+3.65066e+06
+274586
+29545.3
+3484.84
+4466.35
+1326.21
+49088.5
+15951
+149956
+15894.9
+140.5
+211.741
+250.586
+267.133
+316.115
+597.775
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 540.252 km at time = 315.6 sec
+   Velocity at Orbit Insertion = 3480.73 m/s at time = 211.3 sec
+   Final Velocity at Injection = 6182.09 m/s at time = 597.3 sec
+   Maximum Acceleration = 244.182 m/s^2 at time = 597.2 sec
+   Maximum Dynamic Pressure = 15395.8 Pa at time = 315.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 40
+
+{RocketDefintion} = {
+5
+0
+25
+1
+141
+43
+1
+214
+16
+1
+210
+42
+1
+232
+41
+1
+222
+46
+0
+1
+18.7152
+1
+24.7117
+0.356915
+41.9151
+0.356915
+44.3201
+1
+137.655
+0
+147.746
+1
+232.559
+0
+242.662
+1
+322.647
+0
+334.31
+1
+381.167
+0
+584.31
+1
+609.323
+0
+10
+12090.9
+0
+0
+8.89726e+06
+1.53498e+06
+39989.7
+7421.46
+93562.1
+26375
+2727.98
+806.822
+41640
+24380.7
+0
+138.155
+233.059
+323.147
+381.667
+609.823
+ }
+
+Rocket runs out of Mass!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1504.69 km at time = 381.1 sec
+   Velocity at Orbit Insertion = 7022.63 m/s at time = 322.7 sec
+   Final Velocity at Injection = 8513.24 m/s at time = 609.4 sec
+   Maximum Acceleration = 164.51 m/s^2 at time = 609.3 sec
+   Maximum Dynamic Pressure = 41636.9 Pa at time = 381.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 41
+
+{RocketDefintion} = {
+5
+0
+2
+1
+109
+4
+1
+238
+27
+1
+232
+33
+1
+214
+24
+1
+220
+33
+0
+1
+22.1287
+1
+28.9133
+0.372157
+34.7346
+0.372157
+49.8477
+1
+83.8056
+0
+91.3237
+1
+269.809
+0
+277.412
+1
+331.591
+0
+346.628
+1
+418.244
+0
+632.18
+1
+633.078
+0
+10
+41983.9
+0
+0
+244783
+25539.5
+1.50642e+06
+123337
+2456.62
+668.722
+51774.7
+10524.1
+8953.63
+8302.12
+0
+84.3056
+270.309
+332.091
+418.744
+633.578
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00297464 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 18.4358 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 42
+
+{RocketDefintion} = {
+5
+1
+17
+1
+143
+34
+1
+218
+39
+1
+215
+26
+1
+233
+13
+1
+218
+40
+0
+1
+49.4103
+1
+54.1134
+0.798797
+57.2444
+0.798797
+64.5383
+1
+219.586
+0
+227.431
+1
+249.863
+0
+266.555
+1
+386.392
+0
+402.051
+1
+561.328
+0
+776.726
+1
+795.269
+0
+10
+10903.2
+19145
+2872
+2.46792e+06
+239475
+109844
+15358.8
+82361.5
+10699
+56360.9
+6666.55
+94512.3
+14408.3
+60.5
+220.086
+250.363
+386.892
+561.828
+795.769
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1229.19 km at time = 561.3 sec
+   Velocity at Orbit Insertion = 3475.42 m/s at time = 386.4 sec
+   Final Velocity at Injection = 5800.07 m/s at time = 795.3 sec
+   Maximum Acceleration = 443.732 m/s^2 at time = 795.2 sec
+   Maximum Dynamic Pressure = 16189.4 Pa at time = 561.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 43
+
+{RocketDefintion} = {
+5
+1
+12
+1
+104
+33
+1
+221
+30
+1
+204
+16
+1
+211
+2
+1
+234
+40
+0
+1
+59.5766
+1
+73.9675
+0.828735
+93.9475
+0.828735
+95.2165
+1
+117.922
+0
+121.223
+1
+282.648
+0
+300.492
+1
+399.102
+0
+414.43
+1
+576.576
+0
+799.84
+1
+832.031
+0
+10
+35921.2
+116157
+17423
+1.21907e+06
+136135
+454936
+48143.4
+456812
+56060.1
+191421
+23438.6
+49738.2
+13684.3
+120.5
+118.422
+283.148
+399.602
+577.076
+832.531
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 52.4728 km at time = 576.5 sec
+   Velocity at Orbit Insertion = 471.216 m/s at time = 576.5 sec
+   Final Velocity at Injection = 471.774 m/s at time = 576.6 sec
+   Maximum Acceleration = 7.89836 m/s^2 at time = 374.2 sec
+   Maximum Dynamic Pressure = 18311.3 Pa at time = 576.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 44
+
+{RocketDefintion} = {
+5
+1
+14
+1
+121
+27
+1
+235
+20
+1
+213
+32
+1
+237
+39
+1
+217
+0
+0
+1
+17.4549
+1
+23.7013
+0.238476
+36.7866
+0.238476
+49.5045
+1
+240.556
+0
+248.532
+1
+250.456
+0
+262.043
+1
+368.211
+0
+382.761
+1
+495.801
+0
+726.836
+1
+760.51
+0
+10
+15901
+217571
+4187
+237422
+26336.8
+1432.42
+1124.62
+86097.5
+11355.4
+196609
+24674.7
+0
+0
+172.5
+241.056
+250.956
+368.711
+496.301
+761.01
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00298268 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 13.8416 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 45
+
+{RocketDefintion} = {
+5
+0
+7
+1
+123
+13
+1
+213
+3
+1
+217
+20
+1
+218
+49
+1
+225
+15
+0
+1
+55.0134
+1
+73.2478
+0.767946
+88.6008
+0.767946
+105.344
+1
+267.862
+0
+287.497
+1
+312.055
+0
+326.479
+1
+351.676
+0
+359.847
+1
+444.2
+0
+677.824
+1
+690.862
+0
+10
+19402.8
+0
+0
+1.78358e+06
+193506
+2254.5
+633.667
+223610
+23045.2
+491907
+45511.6
+10265.9
+6940.99
+0
+268.362
+312.555
+352.176
+444.7
+691.362
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299374 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 4.74038 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 46
+
+{RocketDefintion} = {
+5
+1
+28
+1
+113
+24
+1
+229
+10
+1
+204
+29
+1
+222
+11
+1
+218
+24
+0
+1
+28.5916
+1
+39.6866
+0.211803
+54.0649
+0.211803
+55.8617
+1
+100.024
+0
+101.299
+1
+120.159
+0
+135.249
+1
+269.409
+0
+286.999
+1
+442.34
+0
+654.973
+1
+703.55
+0
+10
+2074.34
+90164
+13525
+2.56415e+06
+352826
+74501.2
+15472.3
+1.11078e+06
+122558
+33181.8
+7550.51
+140786
+14873
+70.5
+100.524
+120.659
+269.909
+442.84
+704.05
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 961.059 km at time = 442.3 sec
+   Velocity at Orbit Insertion = 3965.23 m/s at time = 269.5 sec
+   Final Velocity at Injection = 6777.84 m/s at time = 703.6 sec
+   Maximum Acceleration = 300.343 m/s^2 at time = 703.5 sec
+   Maximum Dynamic Pressure = 38903.7 Pa at time = 442.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 47
+
+{RocketDefintion} = {
+5
+0
+24
+1
+109
+29
+1
+224
+38
+1
+210
+16
+1
+225
+40
+1
+235
+23
+0
+1
+50.5364
+1
+58.1069
+0.346992
+59.2483
+0.346992
+65.7472
+1
+113.56
+0
+131.417
+1
+329.865
+0
+333.46
+1
+514.214
+0
+516.366
+1
+547.425
+0
+777.3
+1
+780.341
+0
+10
+46257.7
+0
+0
+2.59333e+06
+245803
+396982
+50095
+70468.5
+12627.3
+40610.3
+19489.7
+1869.34
+1309.77
+0
+114.06
+330.365
+514.714
+547.925
+780.841
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1898.99 km at time = 547.4 sec
+   Velocity at Orbit Insertion = 6085.92 m/s at time = 547.4 sec
+   Final Velocity at Injection = 6088.9 m/s at time = 547.5 sec
+   Maximum Acceleration = 68.584 m/s^2 at time = 113.5 sec
+   Maximum Dynamic Pressure = 41422.5 Pa at time = 547.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 48
+
+{RocketDefintion} = {
+5
+1
+5
+1
+129
+25
+1
+206
+7
+1
+233
+21
+1
+226
+32
+1
+205
+8
+0
+1
+34.6842
+1
+40.0634
+0.67218
+59.3809
+0.67218
+70.8764
+1
+135.682
+0
+149.84
+1
+221.036
+0
+232.738
+1
+291.268
+0
+305.605
+1
+381.607
+0
+601.686
+1
+629.684
+0
+10
+23806.4
+170500
+12200
+2.20818e+06
+214495
+20588.6
+3145.45
+36206.3
+6706.94
+1.71492e+06
+207031
+73442.3
+16551.3
+605.5
+136.182
+221.536
+291.768
+382.107
+630.184
+ }
+
+Rocket runs out of Mass!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 35.3402 km at time = 189.1 sec
+   Velocity at Orbit Insertion = 487.303 m/s at time = 135.7 sec
+   Final Velocity at Injection = 487.303 m/s at time = 135.7 sec
+   Maximum Acceleration = 12.1501 m/s^2 at time = 135.6 sec
+   Maximum Dynamic Pressure = 16709.8 Pa at time = 189.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 49
+
+{RocketDefintion} = {
+5
+0
+31
+1
+116
+6
+1
+201
+47
+1
+220
+32
+1
+239
+36
+1
+219
+47
+0
+1
+26.4882
+1
+36.4688
+0.841542
+54.073
+0.841542
+55.7379
+1
+217.006
+0
+222.272
+1
+336.689
+0
+353.559
+1
+489.498
+0
+508.638
+1
+617.768
+0
+839.441
+1
+876.048
+0
+10
+29903
+0
+0
+89775.1
+9150.01
+1.35403e+06
+165576
+111357
+15656.1
+4.00005e+06
+341633
+374477
+106072
+0
+217.506
+337.189
+489.998
+618.268
+876.548
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00295194 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 35.0673 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 50
+
+{RocketDefintion} = {
+5
+1
+31
+1
+138
+48
+1
+227
+1
+1
+231
+27
+1
+207
+44
+1
+223
+30
+0
+1
+6.44417
+1
+15.6714
+0.81049
+28.05
+0.81049
+40.6344
+1
+66.2873
+0
+80.1113
+1
+201.252
+0
+219.033
+1
+249.681
+0
+259.784
+1
+382.515
+0
+584.767
+1
+632.219
+0
+10
+29215.2
+236000
+31000
+1.83078e+06
+292324
+31864.6
+3517.75
+44658.7
+11558.1
+12764.3
+1964.02
+54298.3
+14438.8
+128.5
+66.7873
+201.752
+250.181
+383.015
+632.719
+ }
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 1374.85 km at time = 382.5 sec
+   Velocity at Orbit Insertion = 4405.22 m/s at time = 128.1 sec
+   Final Velocity at Injection = 4913.83 m/s at time = 632.3 sec
+   Maximum Acceleration = 150.587 m/s^2 at time = 66.2 sec
+   Maximum Dynamic Pressure = 106172 Pa at time = 382.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 51
+
+{RocketDefintion} = {
+5
+0
+26
+1
+128
+8
+1
+225
+37
+1
+221
+38
+1
+208
+43
+1
+232
+21
+0
+1
+30.4194
+1
+39.8468
+0.270538
+56.1576
+0.270538
+73.9348
+1
+194.237
+0
+213.43
+1
+345.519
+0
+347.204
+1
+532.876
+0
+539.491
+1
+606.175
+0
+817.832
+1
+834.23
+0
+10
+9785.83
+0
+0
+953120
+86897.8
+106196
+23111.7
+659839
+67173.2
+44814.9
+13273.3
+706.442
+362.079
+0
+194.737
+346.019
+533.376
+606.675
+834.73
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00299419 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 4.03993 Pa at time = 0.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 52
+
+{RocketDefintion} = {
+5
+1
+16
+1
+117
+31
+1
+206
+17
+1
+215
+13
+1
+205
+38
+1
+211
+43
+0
+1
+57.9677
+1
+73.851
+0.448686
+80.7724
+0.448686
+94.0151
+1
+180.222
+0
+195.166
+1
+322.829
+0
+340.036
+1
+521.706
+0
+538.405
+1
+630.503
+0
+868.972
+1
+907.036
+0
+10
+4051.7
+12068
+1810
+1.16875e+06
+111762
+86286.4
+10326.8
+61147.8
+6828.54
+1.01705e+06
+128115
+1.13065e+06
+282826
+56.5
+180.722
+323.329
+522.206
+631.003
+907.536
+ }
+
+Rocket Crashes into the Ground!
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 0.00297512 km at time = 0.1 sec
+   Velocity at Orbit Insertion = 0 m/s at time = 0 sec
+   Final Velocity at Injection = 0 m/s at time = 0 sec
+   Maximum Acceleration = 0 m/s^2 at time = 0 sec
+   Maximum Dynamic Pressure = 17.7306 Pa at time = 0.1 sec
 
 
 Rocket Flight Complete!

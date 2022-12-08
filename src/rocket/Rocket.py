@@ -1,84 +1,148 @@
+from src.rocket.Bounds import Bounds
+
 class Rocket:
-    def __init__(self, num_stages=2, num_boosters=0, booster_type=0, 
+    def __init__(self, l: list=None, num_stages=2, num_boosters=0, booster_type=0, 
                  enginetype_S1=0, num_engines_S1=0, enginetype_S2=0, num_engines_S2=0,
                  enginetype_S3=0, num_engines_S3=0, enginetype_S4=0, num_engines_S4=0, enginetype_S5=0, num_engines_S5=0, 
                  tD_S1=60, tDC_S1=70, lDC_S1=0.8, tU_S1=90, tUC_S1=100, tECO_S1=240, 
                  tSI_S2=245, tECO_S2=485, tSI_S3=0, tECO_S3=0, tSI_S4=0, tECO_S4=0, 
                  tSI_S5=0, tECO_S5=0, dia_S1=5, payload=1000):
-        self.num_stages = num_stages
-        self.num_boosters = num_boosters
-        self.booster_type = booster_type
-        self.hasS1 = 1 if num_stages >= 1 else 0
-        self.enginetype_S1 = enginetype_S1
-        self.num_engines_S1 = num_engines_S1
-        self.hasS2 = 1 if num_stages >= 2 else 0
-        self.enginetype_S2 = enginetype_S2
-        self.num_engines_S2 = num_engines_S2
-        self.hasS3 = 1 if num_stages >= 3 else 0
-        self.enginetype_S3 = enginetype_S3
-        self.num_engines_S3 = num_engines_S3
-        self.hasS4 = 1 if num_stages >= 4 else 0
-        self.enginetype_S4 = enginetype_S4
-        self.num_engines_S4 = num_engines_S4
-        self.hasS5 = 5 if num_stages >= 5 else 0
-        self.enginetype_S5 = enginetype_S5
-        self.num_engines_S5 = num_engines_S5
-        self.tD_S1 = tD_S1      #Time to start throttle down
-        self.tDC_S1 = tDC_S1    #Time to complete throttle down
-        self.lDC_S1 = lDC_S1    #Level to throttle down to
-        self.tU_S1 = tU_S1      # Time to start throttle Up
-        self.tUC_S1 =tUC_S1     #Time to complete throttle up
-        self.tECO_S1 =tECO_S1   #Time for main engine cut off
-        self.tSI_S2 = tSI_S2    #Time for 2nd stage ignition
-        self.tECO_S2 = tECO_S2  #Time for 2nd stage engine cut off
-        self.tSI_S3 = tSI_S3    #Time for 3nd stage ignition
-        self.tECO_S3 = tECO_S3  #Time for 3nd stage engine cut off
-        self.tSI_S4 = tSI_S4    #Time for 4nd stage ignition
-        self.tECO_S4 = tECO_S4  #Time for 4nd stage engine cut off
-        self.tSI_S5 = tSI_S5    #Time for 5nd stage ignition
-        self.tECO_S5 = tECO_S5  #Time for 5nd stage engine cut off
-        self.dia_S1 = dia_S1    #Diameter for main stage
-        self.payload = payload
+        if not l is None:
+            self.defineFromList(l)
+        else:
+            self.num_stages = num_stages
+            self.num_boosters = num_boosters
+            self.booster_type = booster_type
+            self.hasS1 = 1 if num_stages >= 1 else 0
+            self.enginetype_S1 = enginetype_S1
+            self.num_engines_S1 = num_engines_S1
+            self.hasS2 = 1 if num_stages >= 2 else 0
+            self.enginetype_S2 = enginetype_S2
+            self.num_engines_S2 = num_engines_S2
+            self.hasS3 = 1 if num_stages >= 3 else 0
+            self.enginetype_S3 = enginetype_S3
+            self.num_engines_S3 = num_engines_S3
+            self.hasS4 = 1 if num_stages >= 4 else 0
+            self.enginetype_S4 = enginetype_S4
+            self.num_engines_S4 = num_engines_S4
+            self.hasS5 = 1 if num_stages >= 5 else 0
+            self.enginetype_S5 = enginetype_S5
+            self.num_engines_S5 = num_engines_S5
+            self.tD_S1 = tD_S1      #Time to start throttle down
+            self.tDC_S1 = tDC_S1    #Time to complete throttle down
+            self.lDC_S1 = lDC_S1    #Level to throttle down to
+            self.tU_S1 = tU_S1      # Time to start throttle Up
+            self.tUC_S1 =tUC_S1     #Time to complete throttle up
+            self.tECO_S1 =tECO_S1   #Time for main engine cut off
+            self.tSI_S2 = tSI_S2    #Time for 2nd stage ignition
+            self.tECO_S2 = tECO_S2  #Time for 2nd stage engine cut off
+            self.tSI_S3 = tSI_S3    #Time for 3nd stage ignition
+            self.tECO_S3 = tECO_S3  #Time for 3nd stage engine cut off
+            self.tSI_S4 = tSI_S4    #Time for 4nd stage ignition
+            self.tECO_S4 = tECO_S4  #Time for 4nd stage engine cut off
+            self.tSI_S5 = tSI_S5    #Time for 5nd stage ignition
+            self.tECO_S5 = tECO_S5  #Time for 5nd stage engine cut off
+            self.dia_S1 = dia_S1    #Diameter for main stage
+            self.payload = payload
 
-        self.bounds = None
+        # self.bounds = None
+        self.bounds = Bounds()
 
-    def defineBounds(self):
-        ''' Defines lower (0) and upper (1) bounds for each variable in Rocket'''
-        if not self.bounds is None:
-            return
+    def defineFromList(self, l: list):
+        # Mandatory Configuration Param
+        self.num_stages = 1
+        self.num_boosters = int(l[0])
+        self.booster_type = int(l[1])
+        self.enginetype_S1 = int(l[2])
+        self.num_engines_S1 = int(l[3])
+        self.lDC_S1 = l[4]
+        self.payload = l[5]
+        self.dia_S1 = self.getS1Diameter()
 
-        self.bounds = {
-            'num_stages' : [0, 5],
-            'num_boosters' : [0, 2],
-            'booster_type' : [1, 32],
-            'hasS1' : [0, 1],
-            'enginetype_S1' : [101, 146],
-            'num_engines_S1' : [0, 50],
-            'enginetype_S2' : [201, 240],
-            'num_engines_S2' : [0, 50],
-            'enginetype_S3' : [201, 240],
-            'num_engines_S3' : [0, 50],
-            'enginetype_S4' : [201, 240],
-            'num_engines_S4' : [0, 50],
-            'enginetype_S5' : [201, 240],
-            'num_engines_S5' : [0, 50],
-            'tD_S1' : [0, 100],
-            'tDC_S1' : [self.tD_S1 + 1, self.tD_S1 + 50],
-            'lDC_S1' : [0.2, 1.0],
-            'tU_S1' : [self.tDC_S1 + 1, self.tDC_S1 + 50],
-            'tUC_S1' : [self.tU_S1 + 1, self.tU_S1 + 50],
-            'tECO_S1' : [self.tUC_S1 + 1, self.tUC_S1 + 200],
-            'tSI_S2' : [self.tECO_S1 + 1, self.tECO_S1 + 50],
-            'tECO_S2' : [self.tSI_S2 + 1, self.tSI_S2 + 300],
-            'tSI_S3' : [self.tECO_S2 + 1, self.tECO_S2 + 50],
-            'tECO_S3' : [self.tSI_S3 + 1, self.tSI_S3 + 300],
-            'tSI_S4' : [self.tECO_S3 + 1, self.tECO_S3 + 50],
-            'tECO_S4' : [self.tSI_S4 + 1, self.tSI_S4 + 300],
-            'tSI_S5' : [self.tECO_S4 + 1, self.tECO_S4 + 50],
-            'tECO_S' : [self.tSI_S5 + 1, self.tSI_S5 + 300],
-            'dia_S1' : [1, 50],
-            'payload' : [1000, 50000]
-        }
+        # Mandatory Time Param
+        self.tD_S1 = l[6]                 #Time to start throttle down
+        self.tDC_S1 = self.tD_S1 + l[7]        #Time to complete throttle down
+        self.tU_S1 = self.tDC_S1 + l[8]        # Time to start throttle Up
+        self.tUC_S1 = self.tU_S1 + l[9]        #Time to complete throttle up
+        self.tECO_S1 = self.tUC_S1 + l[10]     #Time for main engine cut off
+
+        # Stage 2
+        if len(l) > 11:
+            self.num_stages = 2
+            self.enginetype_S2 = int(l[11])
+            self.num_engines_S2 = int(l[12])
+            self.tSI_S2 = self.tECO_S1 + l[13]    #Time for 2nd stage ignition
+            self.tECO_S2 = self.tSI_S2 + l[14]  #Time for 2nd stage engine cut off
+        else:
+            self.enginetype_S2 = 0
+            self.num_engines_S2 = 0
+            self.tSI_S2 = 0
+            self.tECO_S2 = 0
+
+        # Stage 3
+        if len(l) > 15:
+            self.num_stages = 3
+            self.enginetype_S3 = int(l[15])
+            self.num_engines_S3 = int(l[16])
+            self.tSI_S3 = self.tECO_S2 + l[17]    #Time for 2nd stage ignition
+            self.tECO_S3 = self.tSI_S3 + l[18]  #Time for 2nd stage engine cut off
+        else:
+            self.enginetype_S3 = 0
+            self.num_engines_S3 = 0
+            self.tSI_S3 = 0
+            self.tECO_S3 = 0
+
+        if len(l) > 19:
+            self.num_stages = 4
+            self.enginetype_S4 = int(l[19])
+            self.num_engines_S4 = int(l[20])
+            self.tSI_S4 = self.tECO_S3 + l[21]    #Time for 2nd stage ignition
+            self.tECO_S4 = self.tSI_S4 + l[22]  #Time for 2nd stage engine cut off
+        else:
+            self.enginetype_S4 = 0
+            self.num_engines_S4 = 0
+            self.tSI_S4 = 0
+            self.tECO_S4 = 0
+
+        if len(l) > 23:
+            self.num_stages = 5
+            self.enginetype_S5 = int(l[23])
+            self.num_engines_S5 = int(l[24])
+            self.tSI_S5 = self.tECO_S4 + l[25]    #Time for 2nd stage ignition
+            self.tECO_S5 = self.tSI_S5 + l[26]  #Time for 2nd stage engine cut off
+        else:
+            self.enginetype_S5 = 0
+            self.num_engines_S5 = 0
+            self.tSI_S5 = 0
+            self.tECO_S5 = 0
+
+        self.hasS1 = 1 if self.num_stages >= 1 else 0
+        self.hasS2 = 1 if self.num_stages >= 2 else 0
+        self.hasS3 = 1 if self.num_stages >= 3 else 0
+        self.hasS4 = 1 if self.num_stages >= 4 else 0
+        self.hasS5 = 1 if self.num_stages == 5 else 0
+
+
+    def getS1Diameter(self) -> float:
+        return 10.0
+
+    def defineTimeBounds(self):
+        ''' Defines lower (0) and upper (1) bounds for each time in Rocket'''
+        self.bounds.update({
+            'tD_S1' : [self.tD_S1 + self.bounds.g_until_throttle_down(i) for i in range(2)],
+            'tDC_S1' : [self.tD_S1 + self.bounds.g_ramp_throttle_down(i) for i in range(2)],
+            'tU_S1' : [self.tDC_S1 + self.bounds.g_until_throttle_up(i) for i in range(2)],
+            'tUC_S1' : [self.tU_S1 + self.bounds.g_ramp_throttle_up(i) for i in range(2)],
+            'tECO_S1' : [self.tUC_S1 + self.bounds.g_until_end_S1(i) for i in range(2)],
+            'tSI_S2' : [self.tECO_S1 + self.bounds.g_between_S1_S2(i) for i in range(2)],
+            'tECO_S2' : [self.tSI_S2 + self.bounds.g_until_end_S2(i) for i in range(2)],
+            'tSI_S3' : [self.tECO_S2 + self.bounds.g_between_S2_S3(i) for i in range(2)],
+            'tECO_S3' : [self.tSI_S3 + self.bounds.g_until_end_S3(i) for i in range(2)],
+            'tSI_S4' : [self.tECO_S3 + self.bounds.g_between_S3_S4(i) for i in range(2)],
+            'tECO_S4' : [self.tSI_S4 + self.bounds.g_until_end_S4(i) for i in range(2)],
+            'tSI_S5' : [self.tECO_S4 + self.bounds.g_between_S4_S5(i) for i in range(2)],
+            'tECO_S' : [self.tSI_S5 + self.bounds.g_until_end_S5(i) for i in range(2)]
+            })
 
     # Access
     def lowerBound(self, var: str):
@@ -118,6 +182,37 @@ class Rocket:
             if not max_pressure is None:
                 self.max_pressure = max_pressure
         pass
+
+    #toString
+    def toString(self):
+        out = 'Rocket:\n'
+        out += '\tDiamter: {}m, Payload: {:3g}kg\n'.format(self.dia_S1, self.payload)
+        out += '\t__Power__\n'
+        out += '\tBoosters: {}'.format(self.num_boosters)
+        if self.num_boosters > 0:
+            out += '\tBooster type: {}'.format(self.booster_type)
+        out += '\n\tStage 1:\tEngines: {}, Type: {}\n'.format(self.num_engines_S1, self.enginetype_S1)
+        if self.num_stages >= 2:
+            out += '\tStage 2:\tEngines: {}, Type: {}\n'.format(self.num_engines_S2, self.enginetype_S2)
+        if self.num_stages >= 3:
+            out += '\tStage 3:\tEngines: {}, Type: {}\n'.format(self.num_engines_S3, self.enginetype_S3)
+        if self.num_stages >= 4:
+            out += '\tStage 4:\tEngines: {}, Type: {}\n'.format(self.num_engines_S4, self.enginetype_S4)
+        if self.num_stages >= 5:
+            out += '\tStage 5:\tEngines: {}, Type: {}\n'.format(self.num_engines_S5, self.enginetype_S5)
+        out += '\n\t__Timing__\n'
+        out += '\tThrottle Down:\tStart: {:4.1f}s, Ramp down: {:4.1f}s, Level: {:4.1f}\n'.format(self.tD_S1, self.tDC_S1, self.lDC_S1)
+        out += '\tThrottle Up:\tDuration: {:4.1f}s, Ramp up: {:4.1f}s\n'.format(self.tU_S1, self.tUC_S1)
+        out += '\tStage 1:\tEngine Cut Off: {:4.1f}s\n'.format(self.tECO_S1)
+        if self.num_stages >= 2:
+            out += '\tStage 2:\tIgnition Time: {:4.1f}s, ECO: {:4.1f}s\n'.format(self.tSI_S2, self.tECO_S2)
+        if self.num_stages >= 3:
+            out += '\tStage 3:\tIgnition Time: {:4.1f}s, ECO: {:4.1f}s\n'.format(self.tSI_S3, self.tECO_S3)
+        if self.num_stages >= 4:
+            out += '\tStage 4:\tIgnition Time: {:4.1f}s, ECO: {:4.1f}s\n'.format(self.tSI_S4, self.tECO_S4)
+        if self.num_stages >= 5:
+            out += '\tStage 5:\tIgnition Time: {:4.1f}s, ECO: {:4.1f}s\n'.format(self.tSI_S5, self.tECO_S5)
+        return out
 
 
 

@@ -1,7 +1,7 @@
 from src.rocket.Rocket import Rocket
 
-LENGTH_ROCKET_SUM = 5
-OFFSET = 1
+LENGTH_ROCKET_SUM = 5 #Number of lines per rocket in file
+OFFSET = 1 #Space between rockets in file
 
 def readSimSummData(rockets: list=None):
     ''' Reads the rocket sim data from the file and either writes to the rockets list 
@@ -12,7 +12,7 @@ def readSimSummData(rockets: list=None):
         lines = [line.strip() for line in f]
     
     out = list()
-    for i in range(len(lines) // LENGTH_ROCKET_SUM):
+    for i in range(len(lines) // (LENGTH_ROCKET_SUM + OFFSET)):
         results = list()
         for j in range(LENGTH_ROCKET_SUM):
             vals = lines[i*LENGTH_ROCKET_SUM + j + i*OFFSET]
