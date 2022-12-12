@@ -6,8 +6,8 @@ class Telem:
 
     def parseFile(self):
         with open('src/sim/Telemetry.txt', 'r') as f:
-            f.readline()
-            vals = [[float(x) for x in line.split()] for line in f]
+            lines = [line for line in f]
+        vals = [[float(x) for x in line.split()] for line in lines[1:]]
 
         cols = ['Time', 'Thrust', 'Mass', 'Altitude', 'Velocity', 
                 'Acceleration', 'AtmosphericDensity', 'Pressure', 

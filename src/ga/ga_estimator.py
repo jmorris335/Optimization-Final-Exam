@@ -6,12 +6,13 @@ from src.predict.estimate import *
 from src.rocket.Rocket import Rocket
 from src.response_surf.get_rs import findResponseSurface
 from src.launch.parse_results import parseFlownRockets
+from src.launch.run_batch import runBatch
 
 logfile = 'results/ga_results.txt'
 
 def callerGA():
     writeTime()
-    best_r = runGA(N=400, max_gen=1000, stall_gen=15, max_size=440, breeding_size=64,
+    best_r = runGA(N=400, max_gen=1000, stall_gen=10, max_size=440, breeding_size=64,
                    death_age=8)
     print(best_r.toString())
 
@@ -24,7 +25,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
     scores = [r.score for r in rockets]
     ages = [0] * len(rockets)
     best_r = deepcopy(rockets[scores.index(min(scores))])
-    gen = 0
+    gen = 1
     stalled_gen = 0
 
     # Begin Loop
@@ -34,7 +35,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
         fly(rockets)
 
         # Make children
-        makeChildren(rockets, scores, breeding_size)
+        makeChildren(rockets, scores, ages, breeding_size)
 
         # Mutate
         for r in rockets: mutate(r, .10)
@@ -72,8 +73,6 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
             return best_r
         else:
             stalled_gen += 1
-
-        fly(rockets)
     
     return best_r
 
@@ -97,7 +96,7 @@ def mutate(r: Rocket, chance_of_mutation: float=0.04):
             case 9: adjustTime(r, randint(0, r.num_stages+1), randint(-60, 60))
         fly([r])
 
-def makeChildren(rockets: list, scores: list, breeders_size: int=10):
+def makeChildren(rockets: list, scores: list, ages: list, breeders_size: int=10):
     if not breeders_size % 2 == 0: breeders_size -= 1
     # Get top rockets to breed
     breeders = getNbest(rockets, scores, breeders_size)
@@ -108,6 +107,7 @@ def makeChildren(rockets: list, scores: list, breeders_size: int=10):
         rockets.append(child)
         fly([child])
         scores.append(child.score)
+        ages.append(0)
 
 def crossover(left: Rocket, right: Rocket, degree: int=None):
     num_genes = 18
@@ -146,7 +146,7 @@ def getNbest(rockets: list, scores: list, N: int):
     N = min(len(rockets), N)
     return [rockets[i] for i in sorted(range(len(rockets)), key=lambda i: scores[i])][:N]
 
-def trim(rockets: list, scores: list, max_size: int=220) -> list:
+def trim(rockets: list, scores: list, ages: list, max_size: int=220) -> list:
     ''' Removes the worst rockets so that the size is below max_size'''
     keep = getNbest(rockets, scores, max_size)
     ages = [ages[i] for i in range(len(rockets)) if rockets[i] in keep]

@@ -168,6 +168,9 @@ int main()
 		}
 		
 
+		/* Edits by John Morris: Only log if not a batch file*/
+		if (BatchFile[0] == 0) {
+
 		//  Print {RocketDefinition} to Log File
 		logout << "{RocketDefintion} = {" << endl;
 		for (unsigned long long int i = 0; i < RocketDefinition.size(); i++) {
@@ -191,6 +194,9 @@ int main()
 		}
 		//	logout << endl;
 		Telemetry << endl;
+
+		/* Edits by John Morris 12 DEc 2022, continued */
+		}
 
 		do {																			//  Calculate Rocket Conditions during Flight every dt sec
 			time += dt;
@@ -249,11 +255,19 @@ int main()
 			}
 			
 
+			/* Edits (continued) by John Morris, 12 Dec 2022*/
+			if (BatchFile[0] != 0) {
+
+
 			//	Print Rocket Conditions to log.txt and telemetry.txt
 			for (int i = 0; i < nRocketPerfRows; i++) {
 				//				logout << RocketPerformance[i] << " ";
 				Telemetry << RocketPerformance[i] << " ";
 			}
+
+			/* Edits (continued) by John Morris, 12 Dec 2022 */
+			}
+			/* End edits*/
 
 
 			//	logout << endl;

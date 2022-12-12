@@ -1,80 +1,11 @@
 Running a Batch File - Rocket Design 1
 
-{RocketDefintion} = {
-5
-0
-23
-1
-139
-34
-1
-224
-28
-1
-214
-29
-1
-214
-0
-1
-239
-0
-0
-1
-56.6
-1
-58.6
-0.51337
-58.6
-0.51337
-60.6
-1
-225.456
-0
-226.456
-1
-451.912
-0
-452.912
-1
-678.368
-0
-679.368
-1
-924.823
-0
-925.823
-1
-1171.28
-0
-18.711
-25000
-0
-0
-7.50589e+06
-766477
-330082
-39695
-178200
-21282.4
-0
-0
-0
-0
-0
-225.956
-452.412
-678.868
-925.323
-1171.78
- }
-
 Flight Statistics Summary
-   Altitude at Orbit Insertion = 5470.14 km at time = 924.8 sec
-   Velocity at Orbit Insertion = 10782.4 m/s at time = 678.4 sec
-   Final Velocity at Injection = 10782.4 m/s at time = 678.4 sec
-   Maximum Acceleration = 72.639 m/s^2 at time = 225.4 sec
-   Maximum Dynamic Pressure = 21420.2 Pa at time = 924.8 sec
+   Altitude at Orbit Insertion = 5000.41 km at time = 947.4 sec
+   Velocity at Orbit Insertion = 9543.33 m/s at time = 666 sec
+   Final Velocity at Injection = 9543.33 m/s at time = 666 sec
+   Maximum Acceleration = 58.3672 m/s^2 at time = 384.4 sec
+   Maximum Dynamic Pressure = 18038.4 Pa at time = 947.4 sec
 
 
 Rocket Flight Complete!

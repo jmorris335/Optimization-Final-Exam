@@ -2,13 +2,13 @@ from random import random, randint
 
 from src.rocket.Telem import Telem
 from src.rocket.Rocket import Rocket
-from src.rocket.Bounds import Bounds
 from src.rocket.access_rocket import *
 from src.launch.limits import *
 from src.launch.run_batch import runBatch
 from src.launch.parse_results import parseFlownRockets
 
 def adjust(r: Rocket):
+    runRocket(r)
     checkAltitude(r)
     checkAcceleration(r)
     checkPressure(r)
@@ -93,3 +93,7 @@ def getInitalRocket(engine_id_S1: int=144, engine_id_S2plus: int=213, booster_ty
     updateS1time(r, MAX_BURN_TIME)
     setThrottle(r, 40, DURATION_0, 1.0)
     return r
+
+def runRocket(r: Rocket):
+    runBatch([r])
+    parseFlownRockets([r])
