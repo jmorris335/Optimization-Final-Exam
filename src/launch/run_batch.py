@@ -2,6 +2,7 @@ from subprocess import run
 
 from src.rocket.Rocket import Rocket
 from src.launch.launch import runSim
+from src.launch.get_results import readSimSummData
 
 BATCH_LENGTH = 48 #Defined in Constants.h
 BATCH_SIZE = 66 #Defined in Constants.h
@@ -14,10 +15,10 @@ def writeBatch(rockets: list):
     file.close()
 
 def runBatch(rockets: list=None):
-    if not rockets == None:
-        writeBatch(rockets)
+    if not rockets == None: writeBatch(rockets)
     runSim()
-
+    if not rockets == None: readSimSummData(rockets)
+    
 def writeRocket(r: Rocket) -> str:
     out =  '{}\n'.format(r.num_stages)
     out += '{}\n'.format(r.num_boosters)

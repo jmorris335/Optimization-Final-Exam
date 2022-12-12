@@ -2,7 +2,8 @@
 .vscode/
 __pycache__/
 
+Telemetry.txt
 *.xlsx
 *.exe
-SourceCode/
-sim/
+*.so
+*.pdf

@@ -1,5 +1,7 @@
 from subprocess import run
 
+from src.rocket.Rocket import Rocket
+
 def runSim():
     run('./sim.exe', cwd='./src/sim')
 

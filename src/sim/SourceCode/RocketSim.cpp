@@ -23,6 +23,13 @@ Version 1.0
 
 int main() 
 {
+	/* Edits made by John Morris, 8 Dec 2022 to suppress COUT
+	 * For more information see this link: https://stackoverflow.com/questions/30184998/how-to-disable-cout-output-in-the-runtime
+	 */
+	streambuf* orig_buf = cout.rdbuf();
+	cout.rdbuf(NULL);
+	/* End Edits*/
+
 	// Initialize Files as blank
 	ofstream logout("log.txt", ios::out);			//  Log File for the Simulation
 	logout.close();
@@ -79,6 +86,13 @@ int main()
 	
 	//	Simulate the Rocket Launch
 	do {
+		/* Edits made by John Morris, 8 Dec 2022, see above*/
+		if (iBatch % 50 == 0 && iBatch != 0) {
+			cout.rdbuf(orig_buf);
+			cout << "Completed " << iBatch << " of " << BatchFile[0] << endl;
+			cout.rdbuf(NULL);
+		}
+		/* End Edits*/
 
 		//  Open Files to Write Results
 		logout.open("log.txt", ios::app);
@@ -101,12 +115,9 @@ int main()
 		//  Transfer Batch File to {RocketPerformance}
 		if (BatchFile[0] != 0) {
 			RocketDefinition.resize(BatchLength);
-			/* Edits by John Morris, 8 Dec 2022
-             * cout << "Starting from line: " << iBatch * BatchSize + 1 << " | " << BatchFile[iBatch * BatchSize + 1] << endl;
-             * cout << "Ending on line: " << iBatch * BatchSize + 1 + BatchLength << endl << endl;
-			 */
-			for (int jBatch = 0; jBatch < BatchLength; jBatch++)
+			for (int jBatch = 0; jBatch < BatchLength; jBatch++) {
 				RocketDefinition[jBatch] = BatchFile[iBatch * BatchSize + jBatch + 1];
+			}
 			logout << "Running a Batch File - Rocket Design " << iBatch + 1 << endl << endl;
 		}
 

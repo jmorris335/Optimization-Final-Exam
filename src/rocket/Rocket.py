@@ -1,12 +1,17 @@
 from src.rocket.Bounds import Bounds
+from src.rocket.Engines import Engines
+from src.rocket.diameter import getRocketDiameter
 
 class Rocket:
-    def __init__(self, l: list=None, num_stages=2, num_boosters=0, booster_type=0, 
+    def __init__(self, l: list=None, score: float=None, status_mesg: str=None, num_stages=2, num_boosters=0, booster_type=0, 
                  enginetype_S1=0, num_engines_S1=0, enginetype_S2=0, num_engines_S2=0,
                  enginetype_S3=0, num_engines_S3=0, enginetype_S4=0, num_engines_S4=0, enginetype_S5=0, num_engines_S5=0, 
                  tD_S1=60, tDC_S1=70, lDC_S1=0.8, tU_S1=90, tUC_S1=100, tECO_S1=240, 
-                 tSI_S2=245, tECO_S2=485, tSI_S3=0, tECO_S3=0, tSI_S4=0, tECO_S4=0, 
-                 tSI_S5=0, tECO_S5=0, dia_S1=5, payload=1000):
+                 tSI_S2=245, tECO_S2=485, tSI_S3=486, tECO_S3=487, tSI_S4=488, tECO_S4=489, 
+                 tSI_S5=490, tECO_S5=491, dia_S1=5, payload=1000):
+        self.e = Engines()
+        self.score = score
+        self.status_mesg = status_mesg
         if not l is None:
             self.defineFromList(l)
         else:
@@ -42,11 +47,13 @@ class Rocket:
             self.tECO_S4 = tECO_S4  #Time for 4nd stage engine cut off
             self.tSI_S5 = tSI_S5    #Time for 5nd stage ignition
             self.tECO_S5 = tECO_S5  #Time for 5nd stage engine cut off
-            self.dia_S1 = dia_S1    #Diameter for main stage
+            self.dia_S1 = self.calcDiameter()    #Diameter for main stage
             self.payload = payload
 
         # self.bounds = None
         self.bounds = Bounds()
+        self.defineTimeBounds()
+        self.setSuccessRate()
 
     def defineFromList(self, l: list):
         # Mandatory Configuration Param
@@ -57,7 +64,7 @@ class Rocket:
         self.num_engines_S1 = int(l[3])
         self.lDC_S1 = l[4]
         self.payload = l[5]
-        self.dia_S1 = self.getS1Diameter()
+        self.dia_S1 = self.calcDiameter()
 
         # Mandatory Time Param
         self.tD_S1 = l[6]                 #Time to start throttle down
@@ -76,8 +83,8 @@ class Rocket:
         else:
             self.enginetype_S2 = 0
             self.num_engines_S2 = 0
-            self.tSI_S2 = 0
-            self.tECO_S2 = 0
+            self.tSI_S2 = self.tECO_S1 + 1
+            self.tECO_S2 = self.tSI_S2 + 1
 
         # Stage 3
         if len(l) > 15:
@@ -89,9 +96,10 @@ class Rocket:
         else:
             self.enginetype_S3 = 0
             self.num_engines_S3 = 0
-            self.tSI_S3 = 0
-            self.tECO_S3 = 0
+            self.tSI_S3 = self.tECO_S2 + 1
+            self.tECO_S3 = self.tSI_S3 + 1
 
+        #Stage 4
         if len(l) > 19:
             self.num_stages = 4
             self.enginetype_S4 = int(l[19])
@@ -101,9 +109,10 @@ class Rocket:
         else:
             self.enginetype_S4 = 0
             self.num_engines_S4 = 0
-            self.tSI_S4 = 0
-            self.tECO_S4 = 0
+            self.tSI_S4 = self.tECO_S3 + 1
+            self.tECO_S4 = self.tSI_S4 + 1
 
+        # Stage 5
         if len(l) > 23:
             self.num_stages = 5
             self.enginetype_S5 = int(l[23])
@@ -113,8 +122,8 @@ class Rocket:
         else:
             self.enginetype_S5 = 0
             self.num_engines_S5 = 0
-            self.tSI_S5 = 0
-            self.tECO_S5 = 0
+            self.tSI_S5 = self.tECO_S4 + 1
+            self.tECO_S5 = self.tSI_S5 + 1
 
         self.hasS1 = 1 if self.num_stages >= 1 else 0
         self.hasS2 = 1 if self.num_stages >= 2 else 0
@@ -122,43 +131,59 @@ class Rocket:
         self.hasS4 = 1 if self.num_stages >= 4 else 0
         self.hasS5 = 1 if self.num_stages == 5 else 0
 
+    def calcDiameter(self):
+        N = self.num_engines_S1
+        dia = self.e.get('Diameter', self.enginetype_S1)
+        big_dia = getRocketDiameter(N, dia)
+        return big_dia
 
-    def getS1Diameter(self) -> float:
-        return 10.0
+    def setSuccessRate(self):
+        P = 1.0
+        #Boosters
+        for i in range(self.num_boosters):
+            P = P * self.e.get('Prob_Failure', self.booster_type)
+        for i in range(self.num_engines_S1):
+            P = P * self.e.get('Prob_Failure', self.enginetype_S1)
+        for i in range(self.num_engines_S2):
+            P = P * self.e.get('Prob_Failure', self.enginetype_S2)
+        for i in range(self.num_engines_S3):
+            P = P * self.e.get('Prob_Failure', self.enginetype_S3)
+        for i in range(self.num_engines_S4):
+            P = P * self.e.get('Prob_Failure', self.enginetype_S4)
+        for i in range(self.num_engines_S5):
+            P = P * self.e.get('Prob_Failure', self.enginetype_S5)
+        self.success_rate = P
 
     def defineTimeBounds(self):
         ''' Defines lower (0) and upper (1) bounds for each time in Rocket'''
-        self.bounds.update({
-            'tD_S1' : [self.tD_S1 + self.bounds.g_until_throttle_down(i) for i in range(2)],
-            'tDC_S1' : [self.tD_S1 + self.bounds.g_ramp_throttle_down(i) for i in range(2)],
-            'tU_S1' : [self.tDC_S1 + self.bounds.g_until_throttle_up(i) for i in range(2)],
-            'tUC_S1' : [self.tU_S1 + self.bounds.g_ramp_throttle_up(i) for i in range(2)],
-            'tECO_S1' : [self.tUC_S1 + self.bounds.g_until_end_S1(i) for i in range(2)],
-            'tSI_S2' : [self.tECO_S1 + self.bounds.g_between_S1_S2(i) for i in range(2)],
-            'tECO_S2' : [self.tSI_S2 + self.bounds.g_until_end_S2(i) for i in range(2)],
-            'tSI_S3' : [self.tECO_S2 + self.bounds.g_between_S2_S3(i) for i in range(2)],
-            'tECO_S3' : [self.tSI_S3 + self.bounds.g_until_end_S3(i) for i in range(2)],
-            'tSI_S4' : [self.tECO_S3 + self.bounds.g_between_S3_S4(i) for i in range(2)],
-            'tECO_S4' : [self.tSI_S4 + self.bounds.g_until_end_S4(i) for i in range(2)],
-            'tSI_S5' : [self.tECO_S4 + self.bounds.g_between_S4_S5(i) for i in range(2)],
-            'tECO_S' : [self.tSI_S5 + self.bounds.g_until_end_S5(i) for i in range(2)]
+        self.bounds.addBounds({
+            'tD_S1' : [self.tD_S1 + self.getBounds('g_until_throttle_down')[i] for i in range(2)],
+            'tDC_S1' : [self.tD_S1 + self.getBounds('g_ramp_throttle_down')[i] for i in range(2)],
+            'tU_S1' : [self.tDC_S1 + self.getBounds('g_until_throttle_up')[i] for i in range(2)],
+            'tUC_S1' : [self.tU_S1 + self.getBounds('g_ramp_throttle_up')[i] for i in range(2)],
+            'tECO_S1' : [self.tUC_S1 + self.getBounds('g_until_end_S1')[i] for i in range(2)],
+            'tSI_S2' : [self.tECO_S1 + self.getBounds('g_between_S1_S2')[i] for i in range(2)],
+            'tECO_S2' : [self.tSI_S2 + self.getBounds('g_until_end_S2')[i] for i in range(2)],
+            'tSI_S3' : [self.tECO_S2 + self.getBounds('g_between_S2_S3')[i] for i in range(2)],
+            'tECO_S3' : [self.tSI_S3 + self.getBounds('g_until_end_S3')[i] for i in range(2)],
+            'tSI_S4' : [self.tECO_S3 + self.getBounds('g_between_S3_S4')[i] for i in range(2)],
+            'tECO_S4' : [self.tSI_S4 + self.getBounds('g_until_end_S4')[i] for i in range(2)],
+            'tSI_S5' : [self.tECO_S4 + self.getBounds('g_between_S4_S5')[i] for i in range(2)],
+            'tECO_S' : [self.tSI_S5 + self.getBounds('g_until_end_S5')[i] for i in range(2)]
             })
 
     # Access
     def lowerBound(self, var: str):
         ''' Returns the lower bound of the variable with the name var'''
-        self.defineBounds()
-        return self.getBounds(var)[0]
+        return self.bounds.lowerBound(var)
 
     def upperBound(self, var: str):
         ''' Returns the upper bound of the variable with the name var'''
-        self.defineBounds()
-        return self.getBounds(var)[1]
+        return self.bounds.upperBound(var)
 
     def getBounds(self, var: str) -> list:
         ''' Returns a list of the bounds of the variable with the name var -> [lb, ub]'''
-        self.defineBounds()
-        return self.bounds[var]
+        return self.bounds.get(var)
 
     #Simulation
     def addResults(self, results_list: list=None, orbital_altitude: tuple=None,
@@ -183,11 +208,39 @@ class Rocket:
                 self.max_pressure = max_pressure
         pass
 
+    def addScore(self, score: float):
+        self.score = score
+
+    def addMessage(self, mesg: str):
+        self.status_mesg = mesg
+
+    def refresh(self):
+        self.hasS1 = 1 if self.num_stages >= 1 else 0
+        self.hasS2 = 1 if self.num_stages >= 2 else 0
+        self.hasS3 = 1 if self.num_stages >= 3 else 0
+        self.hasS4 = 1 if self.num_stages >= 4 else 0
+        self.hasS5 = 1 if self.num_stages >= 5 else 0
+        self.dia_S1 = self.calcDiameter()
+        self.setSuccessRate()
+
+
     #toString
     def toString(self):
-        out = 'Rocket:\n'
-        out += '\tDiamter: {}m, Payload: {:3g}kg\n'.format(self.dia_S1, self.payload)
-        out += '\t__Power__\n'
+        out = '\n---  Rocket  ---------\n'
+        out += 'Diamter: {}m, Payload: {:3g}kg, Probability of Success: {:3.3f}\n'.format(self.dia_S1, self.payload, self.success_rate)
+        if not self.score is None:
+            out += '\tObjective Function Cost: {:4.3f}\n'.format(self.score)
+        if not self.status_mesg is None:
+            out += '\tMission Status: {}\n\n'.format(self.status_mesg)
+        if hasattr(self, 'orbital_altitude') and hasattr(self, 'orbital_velocity'):
+            out += '\n\t---Results---\n'
+            out += '\tOrbital Altitude: {:4.1f}km, Orbital Velocity: {:4.1f}m/s\n'.format(self.orbital_altitude[0], self.orbital_velocity[0])
+        if hasattr(self, 'injection_velocity'):
+            out += '\tMaximum Velocity: {:4.1f}m/s\n'.format(self.injection_velocity[0])
+        if hasattr(self, 'max_acceleration') and hasattr(self, 'max_pressure'):
+            out += '\tMax Acceleration: {:4.1f}g, Max Pressure: {:4.1f}Pa\n'.format(self.max_acceleration[0] / 9.81, self.max_pressure[0])
+        
+        out += '\n\t---Power---\n'
         out += '\tBoosters: {}'.format(self.num_boosters)
         if self.num_boosters > 0:
             out += '\tBooster type: {}'.format(self.booster_type)
@@ -200,7 +253,8 @@ class Rocket:
             out += '\tStage 4:\tEngines: {}, Type: {}\n'.format(self.num_engines_S4, self.enginetype_S4)
         if self.num_stages >= 5:
             out += '\tStage 5:\tEngines: {}, Type: {}\n'.format(self.num_engines_S5, self.enginetype_S5)
-        out += '\n\t__Timing__\n'
+        
+        out += '\n\t---Timing---\n'
         out += '\tThrottle Down:\tStart: {:4.1f}s, Ramp down: {:4.1f}s, Level: {:4.1f}\n'.format(self.tD_S1, self.tDC_S1, self.lDC_S1)
         out += '\tThrottle Up:\tDuration: {:4.1f}s, Ramp up: {:4.1f}s\n'.format(self.tU_S1, self.tUC_S1)
         out += '\tStage 1:\tEngine Cut Off: {:4.1f}s\n'.format(self.tECO_S1)

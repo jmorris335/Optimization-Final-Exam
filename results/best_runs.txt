@@ -1,0 +1,86 @@
+*********************************************************
+11 Dec 2022 3:37 AM
+---  Rocket  ---------
+
+	---Results---
+	Diamter: 24.255000000000003m, Payload: 35567.9kg
+	Objective Function Cost: 1.017
+	Mission Status: Injection velocity was too slow (10797.00 vs. 10900.00)
+	Orbital Altitude: 2426.2km, Orbital Velocity: 10792.7m/s
+	Maximum Velocity: 10797.0m/s
+	Max Acceleration:  8.0g, Max Pressure: 17503.6Pa
+
+	---Power---
+	Boosters: 1	Booster type: 26
+	Stage 1:	Engines: 44, Type: 103
+	Stage 2:	Engines: 9, Type: 211
+	Stage 3:	Engines: 26, Type: 210
+	Stage 4:	Engines: 27, Type: 223
+	Stage 5:	Engines: 1, Type: 202
+
+	---Timing---
+	Throttle Down:	Start: 41.1s, Ramp down: 44.1s, Level:  0.7
+	Throttle Up:	Duration: 60.8s, Ramp up: 63.8s
+	Stage 1:	Engine Cut Off: 198.7s
+	Stage 2:	Ignition Time: 201.7s, ECO: 369.1s
+	Stage 3:	Ignition Time: 372.1s, ECO: 447.5s
+	Stage 4:	Ignition Time: 450.5s, ECO: 522.7s
+	Stage 5:	Ignition Time: 732.7s, ECO: 734.4s
+
+******************************************************
+11 DEC 2022 3:50AM
+---  Rocket  ---------
+
+	---Results---
+	Diamter: 12.084633000000002m, Payload: 44673.8kg
+	Objective Function Cost: 0.014
+	Mission Status: Successfully completed mission
+	Orbital Altitude: 1247.0km, Orbital Velocity: 8250.5m/s
+	Maximum Velocity: 10817.6m/s
+	Max Acceleration:  7.3g, Max Pressure: 15312.1Pa
+
+	---Power---
+	Boosters: 1	Booster type: 5
+	Stage 1:	Engines: 15, Type: 139
+	Stage 2:	Engines: 14, Type: 203
+	Stage 3:	Engines: 34, Type: 237
+	Stage 4:	Engines: 1, Type: 239
+	Stage 5:	Engines: 1, Type: 222
+
+	---Timing---
+	Throttle Down:	Start: 84.5s, Ramp down: 86.5s, Level:  1.0
+	Throttle Up:	Duration: 89.0s, Ramp up: 91.0s
+	Stage 1:	Engine Cut Off: 232.8s
+	Stage 2:	Ignition Time: 233.8s, ECO: 355.5s
+	Stage 3:	Ignition Time: 358.5s, ECO: 455.0s
+	Stage 4:	Ignition Time: 458.0s, ECO: 503.5s
+	Stage 5:	Ignition Time: 735.5s, ECO: 736.7s
+
+******************************************************
+11 DEC 2022 9:30PM
+---  Rocket  ---------
+
+	---Results---
+	Diamter: 23.1m, Payload: 47000kg
+	Objective Function Cost: 0.000
+	Mission Status: Successfully completed mission
+	Orbital Altitude: 2970.0km, Orbital Velocity: 10892.8m/s
+	Maximum Velocity: 10900.0m/s
+	Max Acceleration:  7.4g, Max Pressure: 15212.4Pa
+
+	---Power---
+	Boosters: 2	Booster type: 11
+	Stage 1:	Engines: 37, Type: 113
+	Stage 2:	Engines: 27, Type: 211
+	Stage 3:	Engines: 1, Type: 211
+	Stage 4:	Engines: 36, Type: 237
+	Stage 5:	Engines: 0, Type: 209
+
+	---Timing---
+	Throttle Down:	Start: 88.0s, Ramp down: 90.0s, Level:  0.3
+	Throttle Up:	Duration: 90.0s, Ramp up: 92.0s
+	Stage 1:	Engine Cut Off: 188.8s
+	Stage 2:	Ignition Time: 189.8s, ECO: 378.7s
+	Stage 3:	Ignition Time: 379.7s, ECO: 568.5s
+	Stage 4:	Ignition Time: 569.5s, ECO: 758.3s
+	Stage 5:	Ignition Time: 759.3s, ECO: 948.1s

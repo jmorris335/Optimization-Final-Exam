@@ -49,28 +49,28 @@ def getParameters(num_stages: int=2) -> list:
     variables.append(b.get('g_until_end_S1'))
 
     # Stage 2
-    if num_stages >= 2:
+    if num_stages >= 1:
         variables.append(b.get('enginetype_S2'))
         variables.append(b.get('num_engines_S2'))
         variables.append(b.get('g_between_S1_S2'))
         variables.append(b.get('g_until_end_S2'))
 
     # Stage 3
-    if num_stages >= 3:
+    if num_stages >= 1:
         variables.append(b.get('enginetype_S3'))
         variables.append(b.get('num_engines_S3'))
         variables.append(b.get('g_between_S2_S3'))
         variables.append(b.get('g_until_end_S3'))
 
     # Stage 4
-    if num_stages >= 4:
+    if num_stages >= 1:
         variables.append(b.get('enginetype_S4'))
         variables.append(b.get('num_engines_S4'))
         variables.append(b.get('g_between_S3_S4'))
         variables.append(b.get('g_until_end_S4'))
 
     # Stage 5
-    if num_stages >= 5:
+    if num_stages >= 1:
         variables.append(b.get('enginetype_S5'))
         variables.append(b.get('num_engines_S5'))
         variables.append(b.get('enginetype_S5'))
@@ -78,58 +78,9 @@ def getParameters(num_stages: int=2) -> list:
     
     return variables
 
-def getConfigurationParameters(b: Bounds, num_stages: int=2) -> list:
-    ''' Returns the primary configuration parameters for the rocket'''
-    #FIXME: LH needs to have some way of setting rocket types to 0 for rockets with less than
-    # N stages. Right now you can have a rocket that has additional stages in the LH, even if that's 
-    #not configured. You can also have a 5th stage, but not a 2nd stage...
-    # Maybe we need to run this 5 times, one for each stage?
-    variables = list()
-    variables.append(b.get('num_boosters'))
-    variables.append(b.get('booster_type'))
-    variables.append(b.get('enginetype_S1'))
-    variables.append(b.get('num_engines_S1'))
-    variables.append(b.get('lDC_S1'))
-    variables.append(b.get('payload'))
-    if num_stages >= 2:
-        variables.append(b.get('enginetype_S2'))
-        variables.append(b.get('num_engines_S2'))
-    if num_stages >= 3:
-        variables.append(b.get('enginetype_S3'))
-        variables.append(b.get('num_engines_S3'))
-    if num_stages >= 4:
-        variables.append(b.get('enginetype_S4'))
-        variables.append(b.get('num_engines_S4'))
-    if num_stages >= 5:
-        variables.append(b.get('enginetype_S5'))
-        variables.append(b.get('num_engines_S5'))
-    return variables
-
-def getTimeGaps(b: Bounds, num_stages: int=2) -> list:
-    ''' Returns the lower and upper bounds permissible for each gap between times'''
-    variables = list()
-    variables.append(b.get('g_until_throttle_down'))
-    variables.append(b.get('g_ramp_throttle_down'))
-    variables.append(b.get('g_until_throttle_up'))
-    variables.append(b.get('g_ramp_throttle_up'))
-    variables.append(b.get('g_until_end_S1'))
-    if num_stages >= 2:
-        variables.append(b.get('g_between_S1_S2'))
-        variables.append(b.get('g_until_end_S2'))
-    if num_stages >= 3:
-        variables.append(b.get('g_between_S2_S3'))
-        variables.append(b.get('g_until_end_S3'))
-    if num_stages >= 4:
-        variables.append(b.get('g_between_S3_S4'))
-        variables.append(b.get('g_until_end_S4'))
-    if num_stages >= 5:
-        variables.append(b.get('g_between_S4_S5'))
-        variables.append(b.get('g_until_end_S5'))
-    return variables
-
 def makeRocketsFromVars(all_vars: list):
     ''' Takes the lists and returns the corresponding rockets'''
     rockets = list()
     for v in all_vars:
-        rockets.append(Rocket(v))
+        rockets.append(Rocket(l=v))
     return rockets
