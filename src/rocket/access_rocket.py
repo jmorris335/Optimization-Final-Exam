@@ -58,6 +58,13 @@ def getTypeEngine(r: Rocket, stage: int):
         case 3: return r.enginetype_S3
         case 4: return r.enginetype_S4
         case 5: return r.enginetype_S5
+
+def getStageSuccessRate(r: Rocket, stage: int):
+    ''' Returns success rate of given stage'''
+    out = 1.0
+    for i in range(getNumEngines(r, stage)):
+        out = out * (1 - e.get('Prob_Failure', getTypeEngine(r, stage)))
+    return out
     
 def addEngine(r: Rocket, stage: int=2, engine_id: int=None, amount: int=1):
     ''' Adds an engine to the rocket'''

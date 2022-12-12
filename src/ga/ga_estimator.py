@@ -1,10 +1,9 @@
 from random import randint, sample
 from copy import deepcopy
-from datetime import now
+from datetime import datetime
 
 from src.predict.estimate import *
 from src.rocket.Rocket import Rocket
-from src.rocket.Bounds import Bounds
 from src.response_surf.get_rs import findResponseSurface
 from src.launch.parse_results import parseFlownRockets
 
@@ -12,8 +11,8 @@ logfile = 'results/ga_results.txt'
 
 def callerGA():
     writeTime()
-    best_r = runGA(N=400, max_gen=1000, stall_gen=50, max_size=440, breeding_size=32,
-                   death_age=45)
+    best_r = runGA(N=400, max_gen=1000, stall_gen=50, max_size=440, breeding_size=64,
+                   death_age=35)
     print(best_r.toString())
 
 def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
@@ -31,7 +30,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
     # Begin Loop
     while gen < max_gen:
         # Take intelligent step
-        for r in rockets: estimate(r)
+        for r in rockets: adjust(r)
         fly(rockets)
 
         # Make children
@@ -57,7 +56,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
             if ages[-i] > 100: 
                 del rockets[-i]
                 del ages[-i]
-        trim(rockets, scores, max_size)
+        rockets = trim(rockets, scores, max_size)
 
         # Check stopping criteria
         if gen >= max_gen:
@@ -143,9 +142,10 @@ def getNbest(rockets: list, scores: list, N: int):
     N = min(len(rockets), N)
     return [rockets[i] for i in sorted(range(len(rockets)), key=lambda i: scores[i])][:N]
 
-def trim(rockets: list, scores: list, max_size: int=220):
+def trim(rockets: list, scores: list, max_size: int=220) -> list:
     ''' Removes the worst rockets so that the size is below max_size'''
-    rockets = getNbest(rockets, scores, max_size)
+    keep = getNbest(rockets, scores, max_size)
+    return keep
 
 def fly(rockets: list):
     runBatch(rockets)
@@ -153,13 +153,15 @@ def fly(rockets: list):
 
 def writeTime():
     f = open(logfile, 'w')
-    now = now()
-    f.write('Genetic Algorithm Results')
+    now = datetime.now()
+    f.write('***Genetic Algorithm Results\t')
     f.write(now.strftime("%d/%m/%Y %H:%M:%S"))
+    f.write('\n')
 
 def log(out: str):
     f = open(logfile, 'a')
     f.write(out)
+    f.write('\n')
     f.close()
 
 def getOutput(gen: int, scores: list, best_r: Rocket):

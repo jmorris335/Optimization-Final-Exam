@@ -141,17 +141,17 @@ class Rocket:
         P = 1.0
         #Boosters
         for i in range(self.num_boosters):
-            P = P * self.e.get('Prob_Failure', self.booster_type)
+            P = P * (1 - self.e.get('Prob_Failure', self.booster_type))
         for i in range(self.num_engines_S1):
-            P = P * self.e.get('Prob_Failure', self.enginetype_S1)
+            P = P * (1 - self.e.get('Prob_Failure', self.enginetype_S1))
         for i in range(self.num_engines_S2):
-            P = P * self.e.get('Prob_Failure', self.enginetype_S2)
+            P = P * (1 - self.e.get('Prob_Failure', self.enginetype_S2))
         for i in range(self.num_engines_S3):
-            P = P * self.e.get('Prob_Failure', self.enginetype_S3)
+            P = P * (1 - self.e.get('Prob_Failure', self.enginetype_S3))
         for i in range(self.num_engines_S4):
-            P = P * self.e.get('Prob_Failure', self.enginetype_S4)
+            P = P * (1 - self.e.get('Prob_Failure', self.enginetype_S4))
         for i in range(self.num_engines_S5):
-            P = P * self.e.get('Prob_Failure', self.enginetype_S5)
+            P = P * (1 - self.e.get('Prob_Failure', self.enginetype_S5))
         self.success_rate = P
 
     def defineTimeBounds(self):
@@ -227,11 +227,12 @@ class Rocket:
     #toString
     def toString(self):
         out = '\n---  Rocket  ---------\n'
-        out += 'Diamter: {}m, Payload: {:3g}kg, Probability of Success: {:3.3f}\n'.format(self.dia_S1, self.payload, self.success_rate)
+        out += '\tDiamter: {}m, Payload: {:3g}kg\n'.format(self.dia_S1, self.payload)
+        out += '\tProbability of Success: {:3.3f}\n'.format(self.success_rate)
         if not self.score is None:
             out += '\tObjective Function Cost: {:4.3f}\n'.format(self.score)
         if not self.status_mesg is None:
-            out += '\tMission Status: {}\n\n'.format(self.status_mesg)
+            out += '\tMission Status: {}\n'.format(self.status_mesg)
         if hasattr(self, 'orbital_altitude') and hasattr(self, 'orbital_velocity'):
             out += '\n\t---Results---\n'
             out += '\tOrbital Altitude: {:4.1f}km, Orbital Velocity: {:4.1f}m/s\n'.format(self.orbital_altitude[0], self.orbital_velocity[0])

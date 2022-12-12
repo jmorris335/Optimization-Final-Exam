@@ -84,3 +84,33 @@
 	Stage 3:	Ignition Time: 379.7s, ECO: 568.5s
 	Stage 4:	Ignition Time: 569.5s, ECO: 758.3s
 	Stage 5:	Ignition Time: 759.3s, ECO: 948.1s
+
+*********************************************************
+12 DEC 2022 1:08PM
+---  Rocket  ---------
+Diamter: 24.255000000000003m, Payload: 50000kg
+Probability of Success: 0.652
+	Objective Function Cost: 0.083
+	Mission Status: Successfully completed mission
+
+	---Results---
+	Orbital Altitude: 3078.2km, Orbital Velocity: 9636.3m/s
+	Maximum Velocity: 10887.9m/s
+	Max Acceleration:  7.7g, Max Pressure: 16249.5Pa
+
+	---Power---
+	Boosters: 1	Booster type: 5
+	Stage 1:	Engines: 38, Type: 103
+	Stage 2:	Engines: 19, Type: 226
+	Stage 3:	Engines: 1, Type: 220
+	Stage 4:	Engines: 38, Type: 228
+	Stage 5:	Engines: 4, Type: 236
+
+	---Timing---
+	Throttle Down:	Start: 71.2s, Ramp down: 73.2s, Level:  0.7
+	Throttle Up:	Duration: 73.2s, Ramp up: 75.2s
+	Stage 1:	Engine Cut Off: 212.7s
+	Stage 2:	Ignition Time: 213.7s, ECO: 383.5s
+	Stage 3:	Ignition Time: 384.5s, ECO: 650.9s
+	Stage 4:	Ignition Time: 651.9s, ECO: 918.4s
+	Stage 5:	Ignition Time: 919.4s, ECO: 1185.9s

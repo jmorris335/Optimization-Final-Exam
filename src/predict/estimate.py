@@ -8,13 +8,14 @@ from src.launch.limits import *
 from src.launch.run_batch import runBatch
 from src.launch.parse_results import parseFlownRockets
 
-def estimate(r: Rocket):
+def adjust(r: Rocket):
     runRocket(r)
     checkAltitude(r)
     checkAcceleration(r)
     checkPressure(r)
     checkOrbitalVelocity(r)
     checkInjectionVelocity(r)
+    checkFailureRatio(r)
 
 def checkAltitude(r: Rocket) -> bool:
     if r.orbital_altitude[0] < MIN_ALTITUDE:
@@ -83,7 +84,19 @@ def checkInjectionVelocity(r: Rocket):
         # Too fast
         if not removeEngine(r, r.num_stages):
             if not adjustTime(r, r.num_stages, -20): return False
+        runRocket(r)
     return abs(r.injection_velocity[0] - GOAL_INJECTION_VEL) < MAX_TOLERANCE_INJ_VEL
+
+def checkFailureRatio(r: Rocket):
+    if (r.success_rate < MIN_SUCCESS_RATE):
+        worst_stage = (1., 0)
+        for stage in range(r.num_stages + 1):
+            if getStageSuccessRate(r, stage) < worst_stage[0]:
+                worst_stage[1] = stage
+        removeEngine(r, worst_stage[1])
+        adjustPayload(r, -5000)
+        runRocket(r)
+    return (r.success_rate > MIN_SUCCESS_RATE)
 
 def getInitalRocket(engine_id_S1: int=144, engine_id_S2plus: int=213, booster_type: int=22, 
                     num_stages: int=3) -> Rocket:
