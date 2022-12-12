@@ -70,7 +70,7 @@ def rocketFailed(r: Rocket, getMesg: bool=False):
     elif r.max_pressure[0] > MAX_PRESSURE:
         mesg = 'Dynamic pressure was too great ({:.2f} vs. {:.2f})'.format(r.max_pressure[0], MAX_PRESSURE)
     elif r.max_acceleration[0] > MAX_ACCEL:
-        mesg = 'Max acceleration was too great ({:.2f} vs. {:.2f})'.format(r.max_accleration[0] / 9.81, MAX_ACCEL / 9.81)
+        mesg = 'Max acceleration was too great ({:.2f} vs. {:.2f})'.format(r.max_acceleration[0] / 9.81, MAX_ACCEL / 9.81)
     
     if mesg is None:
         if getMesg:

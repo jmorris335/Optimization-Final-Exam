@@ -11,8 +11,8 @@ logfile = 'results/ga_results.txt'
 
 def callerGA():
     writeTime()
-    best_r = runGA(N=400, max_gen=1000, stall_gen=50, max_size=440, breeding_size=64,
-                   death_age=35)
+    best_r = runGA(N=400, max_gen=1000, stall_gen=15, max_size=440, breeding_size=64,
+                   death_age=8)
     print(best_r.toString())
 
 def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
@@ -24,7 +24,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
     scores = [r.score for r in rockets]
     ages = [0] * len(rockets)
     best_r = deepcopy(rockets[scores.index(min(scores))])
-    gen = 1
+    gen = 0
     stalled_gen = 0
 
     # Begin Loop
@@ -45,6 +45,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
             stalled_gen = 0
             best_r = deepcopy(rockets[scores.index(min(scores))])
             log(best_r.toString())
+            print(best_r.toString())
 
         output = getOutput(gen, scores, best_r)
         print(output)
@@ -56,7 +57,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
             if ages[-i] > 100: 
                 del rockets[-i]
                 del ages[-i]
-        rockets = trim(rockets, scores, max_size)
+        rockets, ages = trim(rockets, scores, ages, max_size)
 
         # Check stopping criteria
         if gen >= max_gen:
@@ -71,6 +72,8 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
             return best_r
         else:
             stalled_gen += 1
+
+        fly(rockets)
     
     return best_r
 
@@ -92,6 +95,7 @@ def mutate(r: Rocket, chance_of_mutation: float=0.04):
             case 7: removeEngine(r, stage=randint(0, r.num_stages))
             case 8: adjustPayload(r, float(randint(-10000, 10000)))
             case 9: adjustTime(r, randint(0, r.num_stages+1), randint(-60, 60))
+        fly([r])
 
 def makeChildren(rockets: list, scores: list, breeders_size: int=10):
     if not breeders_size % 2 == 0: breeders_size -= 1
@@ -145,7 +149,8 @@ def getNbest(rockets: list, scores: list, N: int):
 def trim(rockets: list, scores: list, max_size: int=220) -> list:
     ''' Removes the worst rockets so that the size is below max_size'''
     keep = getNbest(rockets, scores, max_size)
-    return keep
+    ages = [ages[i] for i in range(len(rockets)) if rockets[i] in keep]
+    return keep, ages
 
 def fly(rockets: list):
     runBatch(rockets)

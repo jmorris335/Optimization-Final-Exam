@@ -7,4 +7,7 @@ Telemetry.txt
 *.exe
 *.so
 *.pdf
+Batch.txt
+log.txt
+Rocket.txt
 ga_results.txt

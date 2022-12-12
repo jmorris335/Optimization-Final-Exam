@@ -114,3 +114,63 @@ Probability of Success: 0.652
 	Stage 3:	Ignition Time: 384.5s, ECO: 650.9s
 	Stage 4:	Ignition Time: 651.9s, ECO: 918.4s
 	Stage 5:	Ignition Time: 919.4s, ECO: 1185.9s
+
+*****************************************************
+12 DEC 2022 3:44PM
+--  Rocket  ---------
+	Diamter: 18.711000000000002m, Payload: 25000kg
+	Probability of Success: 0.823
+	Objective Function Cost: 0.041
+	Mission Status: Successfully completed mission
+
+	---Results---
+	Orbital Altitude: 4874.5km, Orbital Velocity: 10930.1m/s
+	Maximum Velocity: 10933.4m/s
+	Max Acceleration:  7.5g, Max Pressure: 16277.2Pa
+
+	---Power---
+	Boosters: 0
+	Stage 1:	Engines: 30, Type: 139
+	Stage 2:	Engines: 8, Type: 211
+	Stage 3:	Engines: 2, Type: 210
+	Stage 4:	Engines: 13, Type: 213
+	Stage 5:	Engines: 0, Type: 239
+
+	---Timing---
+	Throttle Down:	Start: 65.3s, Ramp down: 67.3s, Level:  0.4
+	Throttle Up:	Duration: 67.3s, Ramp up: 69.3s
+	Stage 1:	Engine Cut Off: 229.2s
+	Stage 2:	Ignition Time: 230.2s, ECO: 459.4s
+	Stage 3:	Ignition Time: 460.4s, ECO: 689.7s
+	Stage 4:	Ignition Time: 690.7s, ECO: 919.9s
+	Stage 5:	Ignition Time: 920.9s, ECO: 1150.1s
+
+****************************************************
+12 DEC 2022 3:47PM
+---  Rocket  ---------
+	Diamter: 16.442349m, Payload: 25000kg
+	Probability of Success: 0.861
+	Objective Function Cost: 1.159
+	Mission Status: Injection velocity was too slow (9086.94 vs. 10900.00)
+
+	---Results---
+	Orbital Altitude: 4699.9km, Orbital Velocity: 9086.9m/s
+	Maximum Velocity: 9086.9m/s
+	Max Acceleration:  7.2g, Max Pressure: 20768.9Pa
+
+	---Power---
+	Boosters: 0
+	Stage 1:	Engines: 12, Type: 132
+	Stage 2:	Engines: 19, Type: 205
+	Stage 3:	Engines: 11, Type: 214
+	Stage 4:	Engines: 0, Type: 240
+	Stage 5:	Engines: 0, Type: 237
+
+	---Timing---
+	Throttle Down:	Start: 73.3s, Ramp down: 75.3s, Level:  0.9
+	Throttle Up:	Duration: 75.3s, Ramp up: 77.3s
+	Stage 1:	Engine Cut Off: 197.5s
+	Stage 2:	Ignition Time: 198.5s, ECO: 390.3s
+	Stage 3:	Ignition Time: 391.3s, ECO: 585.4s
+	Stage 4:	Ignition Time: 586.4s, ECO: 855.7s
+	Stage 5:	Ignition Time: 856.7s, ECO: 1125.9s

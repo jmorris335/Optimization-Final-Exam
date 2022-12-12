@@ -227,7 +227,7 @@ class Rocket:
     #toString
     def toString(self):
         out = '\n---  Rocket  ---------\n'
-        out += '\tDiamter: {}m, Payload: {:3g}kg\n'.format(self.dia_S1, self.payload)
+        out += '\tDiamter: {:3.3f}m, Payload: {:3g}kg\n'.format(self.dia_S1, self.payload)
         out += '\tProbability of Success: {:3.3f}\n'.format(self.success_rate)
         if not self.score is None:
             out += '\tObjective Function Cost: {:4.3f}\n'.format(self.score)
