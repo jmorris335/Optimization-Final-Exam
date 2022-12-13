@@ -1,11 +1,11 @@
 Running a Batch File - Rocket Design 1
 
 Flight Statistics Summary
-   Altitude at Orbit Insertion = 5000.41 km at time = 947.4 sec
-   Velocity at Orbit Insertion = 9543.33 m/s at time = 666 sec
-   Final Velocity at Injection = 9543.33 m/s at time = 666 sec
-   Maximum Acceleration = 58.3672 m/s^2 at time = 384.4 sec
-   Maximum Dynamic Pressure = 18038.4 Pa at time = 947.4 sec
+   Altitude at Orbit Insertion = 5115.81 km at time = 807.5 sec
+   Velocity at Orbit Insertion = 11565.1 m/s at time = 807.5 sec
+   Final Velocity at Injection = 11566.6 m/s at time = 807.6 sec
+   Maximum Acceleration = 55.6157 m/s^2 at time = 182.3 sec
+   Maximum Dynamic Pressure = 27780.8 Pa at time = 807.5 sec
 
 
 Rocket Flight Complete!

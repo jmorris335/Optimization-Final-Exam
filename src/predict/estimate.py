@@ -16,7 +16,7 @@ def adjust(r: Rocket):
     checkInjectionVelocity(r)
     checkFailureRatio(r)
 
-def checkAltitude(r: Rocket) -> bool:
+def checkAltitude(r: Rocket):
     if r.orbital_altitude[0] < MIN_ALTITUDE:
         adjustPayload(r, -1500)
         addEngine(r, 0)

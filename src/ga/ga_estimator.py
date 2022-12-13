@@ -12,11 +12,11 @@ logfile = 'results/ga_results.txt'
 
 def callerGA():
     writeTime()
-    best_r = runGA(N=400, max_gen=1000, stall_gen=10, max_size=440, breeding_size=64,
-                   death_age=8)
+    best_r = runGA(N=400, max_gen=1000, stall_gen=20, max_size=440, breeding_size=128,
+                   death_age=8, mutation_rate=0.25)
     print(best_r.toString())
 
-def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
+def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50, mutation_rate=0.1,
           death_age: int=100, breeding_size: int=10, max_size: int=220) -> Rocket:
     rockets = seed(N)
     parseFlownRockets(rockets)
@@ -38,7 +38,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50,
         makeChildren(rockets, scores, ages, breeding_size)
 
         # Mutate
-        for r in rockets: mutate(r, .10)
+        for r in rockets: mutate(r, mutation_rate)
         
         # Check convergence
         scores = [r.score for r in rockets]
