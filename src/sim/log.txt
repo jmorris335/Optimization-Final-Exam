@@ -1,12 +1,2030 @@
 Running a Batch File - Rocket Design 1
 
 Flight Statistics Summary
-   Altitude at Orbit Insertion = 5115.81 km at time = 807.5 sec
-   Velocity at Orbit Insertion = 11565.1 m/s at time = 807.5 sec
-   Final Velocity at Injection = 11566.6 m/s at time = 807.6 sec
-   Maximum Acceleration = 55.6157 m/s^2 at time = 182.3 sec
-   Maximum Dynamic Pressure = 27780.8 Pa at time = 807.5 sec
+   Altitude at Orbit Insertion = 5460.6 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10219.7 m/s at time = 572 sec
+   Final Velocity at Injection = 10219.7 m/s at time = 572 sec
+   Maximum Acceleration = 73.7946 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28664.2 Pa at time = 858.4 sec
 
 
 Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 2
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5460.6 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10219.7 m/s at time = 572 sec
+   Final Velocity at Injection = 10219.7 m/s at time = 572 sec
+   Maximum Acceleration = 73.7946 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28664.2 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 3
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2624.74 km at time = 571.9 sec
+   Velocity at Orbit Insertion = 10354.1 m/s at time = 571.9 sec
+   Final Velocity at Injection = 10358.4 m/s at time = 572 sec
+   Maximum Acceleration = 66.7303 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28371 Pa at time = 571.9 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 4
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5309 km at time = 831.1 sec
+   Velocity at Orbit Insertion = 10230.3 m/s at time = 553.8 sec
+   Final Velocity at Injection = 10230.3 m/s at time = 553.8 sec
+   Maximum Acceleration = 76.0339 m/s^2 at time = 276.3 sec
+   Maximum Dynamic Pressure = 29283.3 Pa at time = 831.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 5
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5498.54 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 10211.8 m/s at time = 577.2 sec
+   Final Velocity at Injection = 10211.8 m/s at time = 577.2 sec
+   Maximum Acceleration = 73.1881 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 28489.1 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 6
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5472.46 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10123.8 m/s at time = 572 sec
+   Final Velocity at Injection = 10123.8 m/s at time = 572 sec
+   Maximum Acceleration = 77.8466 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28811.2 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 7
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5439.14 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 10097.2 m/s at time = 577.2 sec
+   Final Velocity at Injection = 10097.2 m/s at time = 577.2 sec
+   Maximum Acceleration = 68.1871 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 28977.1 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 8
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5088.41 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 10210.5 m/s at time = 529.4 sec
+   Final Velocity at Injection = 10210.5 m/s at time = 529.4 sec
+   Maximum Acceleration = 79.151 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 30118.9 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 9
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5410.03 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10005.7 m/s at time = 572 sec
+   Final Velocity at Injection = 10005.7 m/s at time = 572 sec
+   Maximum Acceleration = 72.775 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29298.7 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 10
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5410.03 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10005.7 m/s at time = 572 sec
+   Final Velocity at Injection = 10005.7 m/s at time = 572 sec
+   Maximum Acceleration = 72.775 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29298.7 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 11
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5472.46 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10123.8 m/s at time = 572 sec
+   Final Velocity at Injection = 10123.8 m/s at time = 572 sec
+   Maximum Acceleration = 77.8466 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28811.2 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 12
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5301.57 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 10083.8 m/s at time = 577.2 sec
+   Final Velocity at Injection = 10083.8 m/s at time = 577.2 sec
+   Maximum Acceleration = 62.5935 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 28023.6 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 13
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5410.03 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10005.7 m/s at time = 572 sec
+   Final Velocity at Injection = 10005.7 m/s at time = 572 sec
+   Maximum Acceleration = 72.775 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29298.7 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 14
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5547.44 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9783.93 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9783.93 m/s at time = 599.8 sec
+   Maximum Acceleration = 69.2869 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 28404.1 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 15
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2694.76 km at time = 569.3 sec
+   Velocity at Orbit Insertion = 9990.69 m/s at time = 569.3 sec
+   Final Velocity at Injection = 9994.07 m/s at time = 569.4 sec
+   Maximum Acceleration = 73.0536 m/s^2 at time = 284.1 sec
+   Maximum Dynamic Pressure = 29380.9 Pa at time = 569.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 16
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5496.52 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 10080.3 m/s at time = 585.2 sec
+   Final Velocity at Injection = 10080.3 m/s at time = 585.2 sec
+   Maximum Acceleration = 67.3026 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 28721.8 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 17
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5534.44 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10349 m/s at time = 572 sec
+   Final Velocity at Injection = 10349 m/s at time = 572 sec
+   Maximum Acceleration = 78.3444 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28339.8 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 18
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5389.35 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10088.8 m/s at time = 572 sec
+   Final Velocity at Injection = 10088.8 m/s at time = 572 sec
+   Maximum Acceleration = 68.7466 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29143.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 19
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2537.58 km at time = 571.9 sec
+   Velocity at Orbit Insertion = 10025.3 m/s at time = 571.9 sec
+   Final Velocity at Injection = 10029.6 m/s at time = 572 sec
+   Maximum Acceleration = 56.2925 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29309.9 Pa at time = 571.9 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 20
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5389.35 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10088.8 m/s at time = 572 sec
+   Final Velocity at Injection = 10088.8 m/s at time = 572 sec
+   Maximum Acceleration = 68.7466 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29143.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 21
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 22
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 23
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 24
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5389.35 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 10088.8 m/s at time = 572 sec
+   Final Velocity at Injection = 10088.8 m/s at time = 572 sec
+   Maximum Acceleration = 68.7466 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29143.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 25
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 26
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4924.57 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9898.75 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9898.75 m/s at time = 529.4 sec
+   Maximum Acceleration = 67.6941 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 30923.8 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 27
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 28
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 29
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 30
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2657.69 km at time = 579.7 sec
+   Velocity at Orbit Insertion = 9933.71 m/s at time = 579.7 sec
+   Final Velocity at Injection = 9937.43 m/s at time = 579.8 sec
+   Maximum Acceleration = 62.3264 m/s^2 at time = 289.3 sec
+   Maximum Dynamic Pressure = 29404.3 Pa at time = 579.7 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 31
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5456.35 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9882.38 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9882.38 m/s at time = 577.2 sec
+   Maximum Acceleration = 76.6242 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29290.5 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 32
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 33
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5456.35 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9882.38 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9882.38 m/s at time = 577.2 sec
+   Maximum Acceleration = 76.6242 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29290.5 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 34
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5376.26 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9881.05 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9881.05 m/s at time = 577.2 sec
+   Maximum Acceleration = 72.147 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 31250.1 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 35
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 36
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2671.26 km at time = 569.3 sec
+   Velocity at Orbit Insertion = 9780.51 m/s at time = 569.3 sec
+   Final Velocity at Injection = 9783.7 m/s at time = 569.4 sec
+   Maximum Acceleration = 72.5878 m/s^2 at time = 284.1 sec
+   Maximum Dynamic Pressure = 29363.2 Pa at time = 569.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 37
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 38
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5129.6 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9772.85 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9772.85 m/s at time = 577.2 sec
+   Maximum Acceleration = 52.4327 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 28961.8 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 39
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4756.18 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9787.45 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9787.45 m/s at time = 529.4 sec
+   Maximum Acceleration = 56.901 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 30433.6 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 40
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5303.78 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9932.27 m/s at time = 572 sec
+   Final Velocity at Injection = 9932.27 m/s at time = 572 sec
+   Maximum Acceleration = 63.1032 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29637.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 41
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5083.04 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9765.76 m/s at time = 572 sec
+   Final Velocity at Injection = 9765.76 m/s at time = 572 sec
+   Maximum Acceleration = 52.8813 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29119.7 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 42
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5137.42 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9764.02 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9764.02 m/s at time = 578.8 sec
+   Maximum Acceleration = 52.28 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 28912.3 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 43
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5325.28 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9851.47 m/s at time = 572 sec
+   Final Velocity at Injection = 9851.47 m/s at time = 572 sec
+   Maximum Acceleration = 67.0671 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29802.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 44
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4756.18 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9787.45 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9787.45 m/s at time = 529.4 sec
+   Maximum Acceleration = 56.901 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 30433.6 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 45
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5504.42 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9979.53 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9979.53 m/s at time = 577.2 sec
+   Maximum Acceleration = 81.6531 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 28784.8 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 46
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5421.62 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9774.83 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9774.83 m/s at time = 585.2 sec
+   Maximum Acceleration = 70.8177 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 28862.5 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 47
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5384.43 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9764.91 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9764.91 m/s at time = 577.2 sec
+   Maximum Acceleration = 76.5835 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 31414.9 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 48
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5342.3 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9748.58 m/s at time = 572 sec
+   Final Velocity at Injection = 9748.58 m/s at time = 572 sec
+   Maximum Acceleration = 71.4936 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29966.6 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 49
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4965.26 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9722.59 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9722.59 m/s at time = 529.4 sec
+   Maximum Acceleration = 76.5163 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 31233.8 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 50
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5376.54 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9743.28 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9743.28 m/s at time = 577.2 sec
+   Maximum Acceleration = 74.3076 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29210.4 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 51
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4694.22 km at time = 780.6 sec
+   Velocity at Orbit Insertion = 9654 m/s at time = 534.8 sec
+   Final Velocity at Injection = 9654 m/s at time = 534.8 sec
+   Maximum Acceleration = 73.5761 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29864.1 Pa at time = 780.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 52
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4965.26 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9722.59 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9722.59 m/s at time = 529.4 sec
+   Maximum Acceleration = 76.5163 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 31233.8 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 53
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5335.02 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9756.17 m/s at time = 572 sec
+   Final Velocity at Injection = 9756.17 m/s at time = 572 sec
+   Maximum Acceleration = 77.1927 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 31586.8 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 54
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5508.51 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9692.57 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9692.57 m/s at time = 599.8 sec
+   Maximum Acceleration = 69.7752 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 28423 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 55
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5508.51 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9692.57 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9692.57 m/s at time = 599.8 sec
+   Maximum Acceleration = 69.7752 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 28423 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 56
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5442.8 km at time = 867.6 sec
+   Velocity at Orbit Insertion = 9788.1 m/s at time = 574.4 sec
+   Final Velocity at Injection = 9788.1 m/s at time = 574.4 sec
+   Maximum Acceleration = 77.1365 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 31841.6 Pa at time = 867.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 57
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5352.63 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9616.65 m/s at time = 572 sec
+   Final Velocity at Injection = 9616.65 m/s at time = 572 sec
+   Maximum Acceleration = 76.4689 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30131.4 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 58
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5352.63 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9616.65 m/s at time = 572 sec
+   Final Velocity at Injection = 9616.65 m/s at time = 572 sec
+   Maximum Acceleration = 76.4689 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30131.4 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 59
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4965.26 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9722.59 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9722.59 m/s at time = 529.4 sec
+   Maximum Acceleration = 76.5163 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 31233.8 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 60
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5399.63 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9601.39 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9601.39 m/s at time = 578.8 sec
+   Maximum Acceleration = 75.6641 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29931.7 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 61
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4965.26 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9722.59 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9722.59 m/s at time = 529.4 sec
+   Maximum Acceleration = 76.5163 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 31233.8 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 62
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5304.6 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9607.17 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9607.17 m/s at time = 577.2 sec
+   Maximum Acceleration = 68.6281 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29728.9 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 63
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5260.48 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9605.1 m/s at time = 572 sec
+   Final Velocity at Injection = 9605.1 m/s at time = 572 sec
+   Maximum Acceleration = 69.1765 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29882 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 64
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5305.46 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9588.66 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9588.66 m/s at time = 578.8 sec
+   Maximum Acceleration = 68.4343 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29680.9 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 65
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5305.46 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9588.66 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9588.66 m/s at time = 578.8 sec
+   Maximum Acceleration = 68.4343 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29680.9 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 66
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5305.46 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9588.66 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9588.66 m/s at time = 578.8 sec
+   Maximum Acceleration = 68.4343 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29680.9 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 67
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5305.46 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9588.66 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9588.66 m/s at time = 578.8 sec
+   Maximum Acceleration = 68.4343 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29680.9 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 68
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5456.5 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9604.75 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9604.75 m/s at time = 585.2 sec
+   Maximum Acceleration = 74.9368 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 29745.2 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 69
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5474.78 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9586.75 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9586.75 m/s at time = 599.8 sec
+   Maximum Acceleration = 66.3073 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 29065.1 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 70
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5474.78 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9586.75 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9586.75 m/s at time = 599.8 sec
+   Maximum Acceleration = 66.3073 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 29065.1 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 71
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2720.08 km at time = 585.1 sec
+   Velocity at Orbit Insertion = 9583.4 m/s at time = 585.1 sec
+   Final Velocity at Injection = 9586.37 m/s at time = 585.2 sec
+   Maximum Acceleration = 67.7615 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 29492 Pa at time = 585.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 72
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5260.48 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9605.1 m/s at time = 572 sec
+   Final Velocity at Injection = 9605.1 m/s at time = 572 sec
+   Maximum Acceleration = 69.1765 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29882 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 73
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5294.53 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9714.6 m/s at time = 572 sec
+   Final Velocity at Injection = 9714.6 m/s at time = 572 sec
+   Maximum Acceleration = 72.8335 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29300.8 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 74
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2865.41 km at time = 599.7 sec
+   Velocity at Orbit Insertion = 9599.32 m/s at time = 599.7 sec
+   Final Velocity at Injection = 9601.93 m/s at time = 599.8 sec
+   Maximum Acceleration = 73.3611 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 29322.3 Pa at time = 599.7 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 75
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2811.06 km at time = 585.1 sec
+   Velocity at Orbit Insertion = 9602.15 m/s at time = 585.1 sec
+   Final Velocity at Injection = 9604.75 m/s at time = 585.2 sec
+   Maximum Acceleration = 74.9368 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 29745.2 Pa at time = 585.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 76
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5313.55 km at time = 867.6 sec
+   Velocity at Orbit Insertion = 9606.68 m/s at time = 574.4 sec
+   Final Velocity at Injection = 9606.68 m/s at time = 574.4 sec
+   Maximum Acceleration = 72.6431 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 31676 Pa at time = 867.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 77
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4884.61 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9573.16 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9573.16 m/s at time = 529.4 sec
+   Maximum Acceleration = 74.0345 m/s^2 at time = 264.1 sec
+   Maximum Dynamic Pressure = 31153.5 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 78
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2865.41 km at time = 599.7 sec
+   Velocity at Orbit Insertion = 9599.32 m/s at time = 599.7 sec
+   Final Velocity at Injection = 9601.93 m/s at time = 599.8 sec
+   Maximum Acceleration = 73.3611 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 29322.3 Pa at time = 599.7 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 79
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5250.24 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9577.08 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9577.08 m/s at time = 577.2 sec
+   Maximum Acceleration = 72.2012 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 31252.4 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 80
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5250.24 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9577.08 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9577.08 m/s at time = 577.2 sec
+   Maximum Acceleration = 72.2012 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 31252.4 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 81
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5148.49 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9674.58 m/s at time = 572 sec
+   Final Velocity at Injection = 9674.58 m/s at time = 572 sec
+   Maximum Acceleration = 56.723 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29778.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 82
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2779.43 km at time = 598.5 sec
+   Velocity at Orbit Insertion = 9776.99 m/s at time = 598.5 sec
+   Final Velocity at Injection = 9780.16 m/s at time = 598.6 sec
+   Maximum Acceleration = 69.4153 m/s^2 at time = 298.7 sec
+   Maximum Dynamic Pressure = 28441.9 Pa at time = 598.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 83
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5452.09 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9968.34 m/s at time = 572 sec
+   Final Velocity at Injection = 9968.34 m/s at time = 572 sec
+   Maximum Acceleration = 82.3018 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28700.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 84
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5370.67 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9215.38 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9215.38 m/s at time = 577.2 sec
+   Maximum Acceleration = 97.876 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29223.3 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 85
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2776.61 km at time = 571.9 sec
+   Velocity at Orbit Insertion = 9709.87 m/s at time = 571.9 sec
+   Final Velocity at Injection = 9712.49 m/s at time = 572 sec
+   Maximum Acceleration = 82.2102 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29610.2 Pa at time = 571.9 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 86
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5395.68 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9712.49 m/s at time = 572 sec
+   Final Velocity at Injection = 9712.49 m/s at time = 572 sec
+   Maximum Acceleration = 82.2102 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29610.2 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 87
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5148.49 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9674.58 m/s at time = 572 sec
+   Final Velocity at Injection = 9674.58 m/s at time = 572 sec
+   Maximum Acceleration = 56.723 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29778.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 88
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5298.64 km at time = 867.6 sec
+   Velocity at Orbit Insertion = 9530.95 m/s at time = 574.4 sec
+   Final Velocity at Injection = 9530.95 m/s at time = 574.4 sec
+   Maximum Acceleration = 64.6746 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 30316.8 Pa at time = 867.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 89
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5148.49 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9674.58 m/s at time = 572 sec
+   Final Velocity at Injection = 9674.58 m/s at time = 572 sec
+   Maximum Acceleration = 56.723 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29778.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 90
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2793.37 km at time = 579.7 sec
+   Velocity at Orbit Insertion = 9615.12 m/s at time = 579.7 sec
+   Final Velocity at Injection = 9617.73 m/s at time = 579.8 sec
+   Maximum Acceleration = 75.5749 m/s^2 at time = 289.3 sec
+   Maximum Dynamic Pressure = 29903.8 Pa at time = 579.7 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 91
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5148.49 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9674.58 m/s at time = 572 sec
+   Final Velocity at Injection = 9674.58 m/s at time = 572 sec
+   Maximum Acceleration = 56.723 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29778.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 92
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5452.09 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9968.34 m/s at time = 572 sec
+   Final Velocity at Injection = 9968.34 m/s at time = 572 sec
+   Maximum Acceleration = 82.3018 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28700.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 93
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5264.85 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9535.38 m/s at time = 572 sec
+   Final Velocity at Injection = 9535.38 m/s at time = 572 sec
+   Maximum Acceleration = 72.0376 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29985.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 94
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5190.56 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9675.17 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9675.17 m/s at time = 577.2 sec
+   Maximum Acceleration = 56.254 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29636.9 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 95
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5214.66 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9386.16 m/s at time = 572 sec
+   Final Velocity at Injection = 9386.16 m/s at time = 572 sec
+   Maximum Acceleration = 69.8178 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30296.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 96
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5298.64 km at time = 867.6 sec
+   Velocity at Orbit Insertion = 9530.95 m/s at time = 574.4 sec
+   Final Velocity at Injection = 9530.95 m/s at time = 574.4 sec
+   Maximum Acceleration = 64.6746 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 30316.8 Pa at time = 867.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 97
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5122.06 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9734.97 m/s at time = 572 sec
+   Final Velocity at Injection = 9734.97 m/s at time = 572 sec
+   Maximum Acceleration = 53.2771 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29607.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 98
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5148.49 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9674.58 m/s at time = 572 sec
+   Final Velocity at Injection = 9674.58 m/s at time = 572 sec
+   Maximum Acceleration = 56.723 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29778.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 99
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5253.34 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9525.39 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9525.39 m/s at time = 577.2 sec
+   Maximum Acceleration = 64.3996 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29984.1 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 100
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5214.66 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9386.16 m/s at time = 572 sec
+   Final Velocity at Injection = 9386.16 m/s at time = 572 sec
+   Maximum Acceleration = 69.8178 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30296.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 101
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5173.22 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9365.27 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9365.27 m/s at time = 578.8 sec
+   Maximum Acceleration = 61.9723 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29852.4 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 102
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5253.34 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9525.39 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9525.39 m/s at time = 577.2 sec
+   Maximum Acceleration = 64.3996 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29984.1 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 103
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5288.68 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9394 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9394 m/s at time = 578.8 sec
+   Maximum Acceleration = 73.6734 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29867.5 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 104
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5097.22 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9400.31 m/s at time = 572 sec
+   Final Velocity at Injection = 9400.31 m/s at time = 572 sec
+   Maximum Acceleration = 60.1354 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29931.3 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 105
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5148.49 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9674.58 m/s at time = 572 sec
+   Final Velocity at Injection = 9674.58 m/s at time = 572 sec
+   Maximum Acceleration = 56.723 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29778.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 106
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5111.76 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9347.2 m/s at time = 572 sec
+   Final Velocity at Injection = 9347.2 m/s at time = 572 sec
+   Maximum Acceleration = 62.5566 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30031.6 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 107
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5002.82 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9378.22 m/s at time = 572 sec
+   Final Velocity at Injection = 9378.22 m/s at time = 572 sec
+   Maximum Acceleration = 54.6037 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29675.1 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 108
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5284.95 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9408.78 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9408.78 m/s at time = 577.2 sec
+   Maximum Acceleration = 73.8783 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29915.1 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 109
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5288.68 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9394 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9394 m/s at time = 578.8 sec
+   Maximum Acceleration = 73.6734 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29867.5 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 110
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4685.6 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9815 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9815 m/s at time = 577.2 sec
+   Maximum Acceleration = 70.0393 m/s^2 at time = 577.1 sec
+   Maximum Dynamic Pressure = 25701.5 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 111
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5370.08 km at time = 854.5 sec
+   Velocity at Orbit Insertion = 10389.1 m/s at time = 569.4 sec
+   Final Velocity at Injection = 10389.1 m/s at time = 569.4 sec
+   Maximum Acceleration = 63.8872 m/s^2 at time = 284.1 sec
+   Maximum Dynamic Pressure = 28313.9 Pa at time = 854.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 112
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5192.12 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 8874.56 m/s at time = 577.2 sec
+   Final Velocity at Injection = 8874.56 m/s at time = 577.2 sec
+   Maximum Acceleration = 80.9135 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30498.6 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 113
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5173 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9309.25 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9309.25 m/s at time = 577.2 sec
+   Maximum Acceleration = 64.9344 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30004.8 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 114
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5262.48 km at time = 851.6 sec
+   Velocity at Orbit Insertion = 9496.78 m/s at time = 566.4 sec
+   Final Velocity at Injection = 9496.78 m/s at time = 566.4 sec
+   Maximum Acceleration = 75.9305 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 30341 Pa at time = 851.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 115
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5147.95 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 8872.28 m/s at time = 572 sec
+   Final Velocity at Injection = 8872.28 m/s at time = 572 sec
+   Maximum Acceleration = 81.5105 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30633.6 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 116
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5222.1 km at time = 867.6 sec
+   Velocity at Orbit Insertion = 9320.5 m/s at time = 574.4 sec
+   Final Velocity at Injection = 9320.5 m/s at time = 574.4 sec
+   Maximum Acceleration = 65.2324 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 30338.1 Pa at time = 867.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 117
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5578.14 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9945.75 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9945.75 m/s at time = 599.8 sec
+   Maximum Acceleration = 69.8576 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 27700.1 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 118
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5272.45 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9406.57 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9406.57 m/s at time = 577.2 sec
+   Maximum Acceleration = 69.2838 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30158.6 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 119
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5173 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9309.25 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9309.25 m/s at time = 577.2 sec
+   Maximum Acceleration = 64.9344 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30004.8 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 120
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5173 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9309.25 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9309.25 m/s at time = 577.2 sec
+   Maximum Acceleration = 64.9344 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30004.8 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 121
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5173 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9309.25 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9309.25 m/s at time = 577.2 sec
+   Maximum Acceleration = 64.9344 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30004.8 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 122
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5239.31 km at time = 867.6 sec
+   Velocity at Orbit Insertion = 9261.1 m/s at time = 574.4 sec
+   Final Velocity at Injection = 9261.1 m/s at time = 574.4 sec
+   Maximum Acceleration = 68.3314 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 30449.3 Pa at time = 867.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 123
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5130.13 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9307.56 m/s at time = 572 sec
+   Final Velocity at Injection = 9307.56 m/s at time = 572 sec
+   Maximum Acceleration = 65.4479 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30143.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 124
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5130.13 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9307.56 m/s at time = 572 sec
+   Final Velocity at Injection = 9307.56 m/s at time = 572 sec
+   Maximum Acceleration = 65.4479 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30143.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 125
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5130.13 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9307.56 m/s at time = 572 sec
+   Final Velocity at Injection = 9307.56 m/s at time = 572 sec
+   Maximum Acceleration = 65.4479 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30143.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 126
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5130.13 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9307.56 m/s at time = 572 sec
+   Final Velocity at Injection = 9307.56 m/s at time = 572 sec
+   Maximum Acceleration = 65.4479 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30143.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 127
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5191.6 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9314.77 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9314.77 m/s at time = 578.8 sec
+   Maximum Acceleration = 64.7631 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29961.4 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 128
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2621.13 km at time = 569.3 sec
+   Velocity at Orbit Insertion = 9297.69 m/s at time = 569.3 sec
+   Final Velocity at Injection = 9300.45 m/s at time = 569.4 sec
+   Maximum Acceleration = 65.6935 m/s^2 at time = 284.1 sec
+   Maximum Dynamic Pressure = 30212.3 Pa at time = 569.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 129
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2621.13 km at time = 569.3 sec
+   Velocity at Orbit Insertion = 9297.69 m/s at time = 569.3 sec
+   Final Velocity at Injection = 9300.45 m/s at time = 569.4 sec
+   Maximum Acceleration = 65.6935 m/s^2 at time = 284.1 sec
+   Maximum Dynamic Pressure = 30212.3 Pa at time = 569.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 130
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5046.11 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9272.26 m/s at time = 572 sec
+   Final Velocity at Injection = 9272.26 m/s at time = 572 sec
+   Maximum Acceleration = 60.4832 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29946.8 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 131
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5364.3 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9238.59 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9238.59 m/s at time = 599.8 sec
+   Maximum Acceleration = 65.7197 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 29516.5 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 132
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4603.96 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9586.57 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9586.57 m/s at time = 585.2 sec
+   Maximum Acceleration = 69.543 m/s^2 at time = 585.1 sec
+   Maximum Dynamic Pressure = 25753.2 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 133
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5218.78 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9278.03 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9278.03 m/s at time = 578.8 sec
+   Maximum Acceleration = 73.6345 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 32137.5 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 134
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5198.74 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9372.99 m/s at time = 572 sec
+   Final Velocity at Injection = 9372.99 m/s at time = 572 sec
+   Maximum Acceleration = 76.719 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29040.2 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 135
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5228.9 km at time = 831.1 sec
+   Velocity at Orbit Insertion = 9699.93 m/s at time = 553.8 sec
+   Final Velocity at Injection = 9699.93 m/s at time = 553.8 sec
+   Maximum Acceleration = 84.5853 m/s^2 at time = 276.3 sec
+   Maximum Dynamic Pressure = 29777.8 Pa at time = 831.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 136
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4297.98 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 9232.88 m/s at time = 529.4 sec
+   Final Velocity at Injection = 9232.88 m/s at time = 529.4 sec
+   Maximum Acceleration = 53.28 m/s^2 at time = 529.3 sec
+   Maximum Dynamic Pressure = 30142.7 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 137
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4565.89 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9616.23 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9616.23 m/s at time = 577.2 sec
+   Maximum Acceleration = 70.0119 m/s^2 at time = 577.1 sec
+   Maximum Dynamic Pressure = 26032.3 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 138
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5315.22 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9218.82 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9218.82 m/s at time = 599.8 sec
+   Maximum Acceleration = 62.4488 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 29391.5 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 139
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4681.09 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 9551.89 m/s at time = 599.8 sec
+   Final Velocity at Injection = 9551.89 m/s at time = 599.8 sec
+   Maximum Acceleration = 68.9963 m/s^2 at time = 599.7 sec
+   Maximum Dynamic Pressure = 25252.1 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 140
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4603.96 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9586.57 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9586.57 m/s at time = 585.2 sec
+   Maximum Acceleration = 69.543 m/s^2 at time = 585.1 sec
+   Maximum Dynamic Pressure = 25753.2 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 141
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4972.9 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9239.1 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9239.1 m/s at time = 578.8 sec
+   Maximum Acceleration = 71.3271 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 25765.5 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 142
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5393 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9381.49 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9381.49 m/s at time = 585.2 sec
+   Maximum Acceleration = 76.9073 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 29807.6 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 143
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5448.81 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9815.18 m/s at time = 572 sec
+   Final Velocity at Injection = 9815.18 m/s at time = 572 sec
+   Maximum Acceleration = 87.2582 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 28846.7 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 144
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5161.25 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9082.09 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9082.09 m/s at time = 577.2 sec
+   Maximum Acceleration = 71.4693 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30229.7 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 145
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2721.96 km at time = 585.1 sec
+   Velocity at Orbit Insertion = 9142.64 m/s at time = 585.1 sec
+   Final Velocity at Injection = 9144.96 m/s at time = 585.2 sec
+   Maximum Acceleration = 72.5179 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 29282.7 Pa at time = 585.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 146
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5228.16 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9144.96 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9144.96 m/s at time = 585.2 sec
+   Maximum Acceleration = 72.5179 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 29282.7 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 147
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5016.64 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9134.02 m/s at time = 572 sec
+   Final Velocity at Injection = 9134.02 m/s at time = 572 sec
+   Maximum Acceleration = 61.8391 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30003.3 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 148
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4712.46 km at time = 898.3 sec
+   Velocity at Orbit Insertion = 9480.06 m/s at time = 598.6 sec
+   Final Velocity at Injection = 9480.06 m/s at time = 598.6 sec
+   Maximum Acceleration = 64.3177 m/s^2 at time = 598.5 sec
+   Maximum Dynamic Pressure = 26310.8 Pa at time = 898.3 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 149
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5329.31 km at time = 868.6 sec
+   Velocity at Orbit Insertion = 9337.44 m/s at time = 578.8 sec
+   Final Velocity at Injection = 9337.44 m/s at time = 578.8 sec
+   Maximum Acceleration = 81.2148 m/s^2 at time = 288.8 sec
+   Maximum Dynamic Pressure = 29292.5 Pa at time = 868.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 150
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5282.82 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9383.61 m/s at time = 572 sec
+   Final Velocity at Injection = 9383.61 m/s at time = 572 sec
+   Maximum Acceleration = 78.4523 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30192.5 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 151
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5280.82 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9277.92 m/s at time = 572 sec
+   Final Velocity at Injection = 9277.92 m/s at time = 572 sec
+   Maximum Acceleration = 82.0546 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 30296.2 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 152
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5349.44 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9737.08 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9737.08 m/s at time = 585.2 sec
+   Maximum Acceleration = 66.2744 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 28678.2 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 153
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2870.74 km at time = 598.5 sec
+   Velocity at Orbit Insertion = 9223.14 m/s at time = 598.5 sec
+   Final Velocity at Injection = 9225.2 m/s at time = 598.6 sec
+   Maximum Acceleration = 78.9356 m/s^2 at time = 298.7 sec
+   Maximum Dynamic Pressure = 29146.5 Pa at time = 598.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 154
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5222.56 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 9133.31 m/s at time = 577.2 sec
+   Final Velocity at Injection = 9133.31 m/s at time = 577.2 sec
+   Maximum Acceleration = 74.3594 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 30318 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 155
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5189.64 km at time = 851.6 sec
+   Velocity at Orbit Insertion = 9276.82 m/s at time = 566.4 sec
+   Final Velocity at Injection = 9276.82 m/s at time = 566.4 sec
+   Maximum Acceleration = 82.9405 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 30155.2 Pa at time = 851.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 156
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4056.69 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 8030.58 m/s at time = 878.2 sec
+   Final Velocity at Injection = 8031.9 m/s at time = 878.3 sec
+   Maximum Acceleration = 39.6388 m/s^2 at time = 140 sec
+   Maximum Dynamic Pressure = 30342.7 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 157
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 5260.9 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 9323.52 m/s at time = 572 sec
+   Final Velocity at Injection = 9323.52 m/s at time = 572 sec
+   Maximum Acceleration = 82.0493 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29485.3 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 158
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 3566.02 km at time = 729.8 sec
+   Velocity at Orbit Insertion = 9115.57 m/s at time = 729.8 sec
+   Final Velocity at Injection = 9116.04 m/s at time = 729.9 sec
+   Maximum Acceleration = 75.1666 m/s^2 at time = 486.2 sec
+   Maximum Dynamic Pressure = 26417.4 Pa at time = 729.8 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 159
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4095.05 km at time = 794.5 sec
+   Velocity at Orbit Insertion = 8923.21 m/s at time = 529.4 sec
+   Final Velocity at Injection = 8923.21 m/s at time = 529.4 sec
+   Maximum Acceleration = 53.06 m/s^2 at time = 529.3 sec
+   Maximum Dynamic Pressure = 31282.5 Pa at time = 794.5 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 160
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4308.33 km at time = 851.6 sec
+   Velocity at Orbit Insertion = 9179.6 m/s at time = 566.4 sec
+   Final Velocity at Injection = 9179.6 m/s at time = 566.4 sec
+   Maximum Acceleration = 65.5475 m/s^2 at time = 566.3 sec
+   Maximum Dynamic Pressure = 26663 Pa at time = 851.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 161
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4459.01 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 9457.92 m/s at time = 585.2 sec
+   Final Velocity at Injection = 9457.92 m/s at time = 585.2 sec
+   Maximum Acceleration = 73.6024 m/s^2 at time = 585.1 sec
+   Maximum Dynamic Pressure = 25156.4 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 162
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4165.03 km at time = 878.2 sec
+   Velocity at Orbit Insertion = 8263.89 m/s at time = 585.2 sec
+   Final Velocity at Injection = 8263.89 m/s at time = 585.2 sec
+   Maximum Acceleration = 45.2709 m/s^2 at time = 585.1 sec
+   Maximum Dynamic Pressure = 28540.9 Pa at time = 878.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 163
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4443.21 km at time = 866.2 sec
+   Velocity at Orbit Insertion = 8290.87 m/s at time = 577.2 sec
+   Final Velocity at Injection = 8290.87 m/s at time = 577.2 sec
+   Maximum Acceleration = 64.5005 m/s^2 at time = 288 sec
+   Maximum Dynamic Pressure = 29793.7 Pa at time = 866.2 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 164
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4706.96 km at time = 867.6 sec
+   Velocity at Orbit Insertion = 8177.12 m/s at time = 574.4 sec
+   Final Velocity at Injection = 8177.12 m/s at time = 574.4 sec
+   Maximum Acceleration = 60.6239 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 30155.2 Pa at time = 867.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 165
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4354.56 km at time = 851.6 sec
+   Velocity at Orbit Insertion = 7909.17 m/s at time = 566.4 sec
+   Final Velocity at Injection = 7909.17 m/s at time = 566.4 sec
+   Maximum Acceleration = 65.8094 m/s^2 at time = 281 sec
+   Maximum Dynamic Pressure = 27145.3 Pa at time = 851.6 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 166
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 2450.71 km at time = 585.1 sec
+   Velocity at Orbit Insertion = 8018.4 m/s at time = 585.1 sec
+   Final Velocity at Injection = 8020.34 m/s at time = 585.2 sec
+   Maximum Acceleration = 56.3939 m/s^2 at time = 292 sec
+   Maximum Dynamic Pressure = 29461.3 Pa at time = 585.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 167
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4559.79 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 7921.02 m/s at time = 572 sec
+   Final Velocity at Injection = 7921.02 m/s at time = 572 sec
+   Maximum Acceleration = 68.2629 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 29049.6 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 168
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4293.6 km at time = 858.4 sec
+   Velocity at Orbit Insertion = 8094.07 m/s at time = 572 sec
+   Final Velocity at Injection = 8094.07 m/s at time = 572 sec
+   Maximum Acceleration = 65.8585 m/s^2 at time = 285.4 sec
+   Maximum Dynamic Pressure = 25069.3 Pa at time = 858.4 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 169
+
+Flight Statistics Summary
+   Altitude at Orbit Insertion = 4962.56 km at time = 900.1 sec
+   Velocity at Orbit Insertion = 7850.61 m/s at time = 599.8 sec
+   Final Velocity at Injection = 7850.61 m/s at time = 599.8 sec
+   Maximum Acceleration = 73.6789 m/s^2 at time = 299.3 sec
+   Maximum Dynamic Pressure = 28213.7 Pa at time = 900.1 sec
+
+
+Rocket Flight Complete!
+
+Running a Batch File - Rocket Design 170
 

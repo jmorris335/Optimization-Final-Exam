@@ -12,12 +12,12 @@ logfile = 'results/ga_results.txt'
 
 def callerGA():
     writeTime()
-    best_r = runGA(N=400, max_gen=1000, stall_gen=20, max_size=440, breeding_size=128,
-                   death_age=8, mutation_rate=0.25)
+    best_r = runGA(N=1000, max_gen=1000, stall_gen=25, max_size=800, breeding_size=64,
+                   death_age=10, mutation_rate=0.10, migration_limit=22)
     print(best_r.toString())
 
 def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50, mutation_rate=0.1,
-          death_age: int=100, breeding_size: int=10, max_size: int=220) -> Rocket:
+          death_age: int=100, breeding_size: int=10, max_size: int=220, migration_limit = 6) -> Rocket:
     rockets = seed(N)
     parseFlownRockets(rockets)
     
@@ -73,12 +73,25 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50, mutation_rate=0.1,
             return best_r
         else:
             stalled_gen += 1
+
+        if stalled_gen > migration_limit:
+            num_new_rockets = max_size // 2
+            migration(rockets, scores, ages, num_new_rockets)
     
     return best_r
 
 def seed(N: int=200):
-    rs = findResponseSurface(10, 5)
+    rs = findResponseSurface(30, 3)
     return sample(rs, N)
+
+def migration(rockets: list, scores: list, ages: list, N: int=200):
+    new_rockets = seed(N)
+    fly(new_rockets)
+    new_scores = [r.score for r in new_rockets]
+    new_ages = [0] * N
+    rockets.extend(new_rockets)
+    scores.extend(new_scores)
+    ages.extend(new_ages)
 
 def mutate(r: Rocket, chance_of_mutation: float=0.04):
     if random() < chance_of_mutation:

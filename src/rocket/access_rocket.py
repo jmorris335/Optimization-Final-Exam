@@ -23,6 +23,11 @@ def adjustPayload(r:Rocket, adjust: float):
     return True
 
 def addStage(r, burn_time: int=100) -> bool:
+    # CONSTRAINT
+    if r.num_stages >= 4: 
+        r.num_stages = 3
+        return False
+    # END CONSTARINT
     if r.num_stages == 5: return False
     r.num_stages += 1
     if r.num_stages == 2:
@@ -202,4 +207,4 @@ def maxRockets(engine_id: int=144, failure_threshold: float=0.95):
     while p_succeed >= failure_threshold:
         count += 1
         p_succeed = p_succeed * (1 - p_fail)
-    return min(count, 50)
+    return min(count, 12)
