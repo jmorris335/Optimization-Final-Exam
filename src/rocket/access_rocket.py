@@ -23,11 +23,9 @@ def adjustPayload(r:Rocket, adjust: float):
     return True
 
 def addStage(r, burn_time: int=100) -> bool:
-    # CONSTRAINT
-    if r.num_stages >= 4: 
-        r.num_stages = 3
+    if r.num_stages >= b.get('num_stages')[1]:
+        r.num_stages = b.get('num_stages')[1]
         return False
-    # END CONSTARINT
     if r.num_stages == 5: return False
     r.num_stages += 1
     if r.num_stages == 2:
@@ -73,6 +71,7 @@ def getStageSuccessRate(r: Rocket, stage: int):
     
 def addEngine(r: Rocket, stage: int=2, engine_id: int=None, amount: int=1):
     ''' Adds an engine to the rocket'''
+    stage = min(r.num_stages, stage)
     match stage:
         case 0:
             if not engine_id is None: r.booster_type = engine_id
@@ -80,23 +79,23 @@ def addEngine(r: Rocket, stage: int=2, engine_id: int=None, amount: int=1):
             else: r.num_boosters += amount
         case 1:
             if not engine_id is None: r.enginetype_S1 = engine_id
-            if r.num_engines_S1 >= maxRockets(r.enginetype_S1): return False
+            if r.num_engines_S1 >= maxEngines(stage=1, engine_id=r.enginetype_S1): return False
             else: r.num_engines_S1 += amount
         case 2:
             if not engine_id is None: r.enginetype_S2 = engine_id
-            if r.num_engines_S2 >= maxRockets(r.enginetype_S2): return False
+            if r.num_engines_S2 >= maxEngines(stage=2, engine_id=r.enginetype_S2): return False
             else: r.num_engines_S2 += amount
         case 3:
             if not engine_id is None: r.enginetype_S3 = engine_id
-            if r.num_engines_S3 >= maxRockets(r.enginetype_S3): return False
+            if r.num_engines_S3 >= maxEngines(stage=3, engine_id=r.enginetype_S3): return False
             else: r.num_engines_S3 += amount
         case 4:
             if not engine_id is None: r.enginetype_S4 = engine_id
-            if r.num_engines_S4 >= maxRockets(r.enginetype_S4): return False
+            if r.num_engines_S4 >= maxEngines(stage=4, engine_id=r.enginetype_S4): return False
             else: r.num_engines_S4 += amount
         case 5:
             if not engine_id is None: r.enginetype_S5 = engine_id
-            if r.num_engines_S5 >= maxRockets(r.enginetype_S5): return False
+            if r.num_engines_S5 >= maxEngines(stage=5, engine_id=r.enginetype_S5): return False
             else: r.num_engines_S5 += amount
     return True
 
@@ -199,12 +198,17 @@ def updateS5time(r: Rocket, burn_time: int=100):
     r.tSI_S5 = r.tECO_S4 + 1
     r.tECO_S5 = r.tSI_S5 + burn_time
 
-def maxRockets(engine_id: int=144, failure_threshold: float=0.95):
+def maxEngines(stage: int=None, engine_id: int=None, failure_threshold: float=0.95):
     ''' Returns the maximum number of engines possible before failure'''
-    p_fail = e.get('Prob_Failure', engine_id)
-    p_succeed = 1.0
-    count = 0
-    while p_succeed >= failure_threshold:
-        count += 1
-        p_succeed = p_succeed * (1 - p_fail)
-    return min(count, 12)
+    count = 50
+    high = 50
+    if not stage is None:
+        high = b.getMaxEngines(stage)
+    if not engine_id is None:
+        p_fail = e.get('Prob_Failure', engine_id)
+        p_succeed = 1.0
+        count = 0
+        while p_succeed >= failure_threshold:
+            count += 1
+            p_succeed = p_succeed * (1 - p_fail)
+    return min(count, high, 50)

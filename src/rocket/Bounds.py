@@ -5,20 +5,19 @@ class Bounds:
             'num_stages' : (0, 5),
             'num_boosters' : (0, 2),
             'booster_type' : (1, 32),
-            'hasS1' : (0, 1),
             'enginetype_S1' : (101, 146),
-            'num_engines_S1' : (2, 12),
+            'num_engines_S1' : (2, 30),
             'enginetype_S2' : (201, 240),
-            'num_engines_S2' : (1, 12),
+            'num_engines_S2' : (0, 30),
             'enginetype_S3' : (201, 240),
-            'num_engines_S3' : (1, 12),
+            'num_engines_S3' : (0, 30),
             'enginetype_S4' : (201, 240),
-            'num_engines_S4' : (1, 12),
+            'num_engines_S4' : (0, 30),
             'enginetype_S5' : (201, 240),
-            'num_engines_S5' : (1, 12),
+            'num_engines_S5' : (0, 30),
             'dia_S1' : (1, 30),
             'payload' : (25000, 50000),
-            'lDC_S1' : [1.0, 1.0],
+            'lDC_S1' : [0.1, 1.0],
  
             #Time Gaps
             'g_until_throttle_down' : (1, 60),
@@ -51,3 +50,15 @@ class Bounds:
     def get(self, var: str) -> list:
         ''' Returns a list of the bounds of the variable with the name var -> [lb, ub]'''
         return self.bounds[var]
+
+    # Helper
+    def getMaxEngines(self, stage: int) -> int:
+        ''' Returns the bounds for the number of rockets for the given stage'''
+        match stage:
+            case 0: return self.get('num_boosters')[1]
+            case 1: return self.get('num_engines_S1')[1]
+            case 2: return self.get('num_engines_S2')[1]
+            case 3: return self.get('num_engines_S3')[1]
+            case 4: return self.get('num_engines_S4')[1]
+            case 5: return self.get('num_engines_S5')[1]
+            case _: return 50

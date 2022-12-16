@@ -1,0 +1,46 @@
+const
+diameter
+payload
+thrust0
+thrust1
+thrust2
+thrust3
+thrust4
+thrust5
+isp0
+isp1
+isp2
+isp3
+isp4
+isp5
+dry_mass0
+dry_mass1
+dry_mass2
+dry_mass3
+dry_mass4
+dry_mass5
+fuelpers0
+fuelpers1
+fuelpers2
+fuelpers3
+fuelpers4
+fuelpers5
+burn_time1
+burn_time2
+burn_time3
+burn_time4
+burn_time5
+* 
+Scores
+* 
+Success Rate
+* 
+Orbital Velocity
+* 
+Altitude
+* 
+Injection Velocity
+* 
+Acceleration
+* 
+Pressure

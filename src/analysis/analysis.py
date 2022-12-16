@@ -94,7 +94,6 @@ def scatterPlots(df: pd.DataFrame, dep_var: str='scores'):
     plt.tight_layout()
     plt.show()
 
-
 def lin_reg(df: pd.DataFrame, dep_var: str='scores'):
     x = df.loc[:, df.columns != dep_var]
     y = df[dep_var]

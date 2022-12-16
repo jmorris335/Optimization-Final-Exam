@@ -2,7 +2,7 @@ from random import randint, sample
 from copy import deepcopy
 from datetime import datetime
 
-from src.predict.estimate import *
+from src.ga.estimate import *
 from src.rocket.Rocket import Rocket
 from src.response_surf.get_rs import findResponseSurface
 from src.launch.parse_results import parseFlownRockets
@@ -12,8 +12,8 @@ logfile = 'results/ga_results.txt'
 
 def callerGA():
     writeTime()
-    best_r = runGA(N=1000, max_gen=1000, stall_gen=25, max_size=800, breeding_size=64,
-                   death_age=10, mutation_rate=0.10, migration_limit=22)
+    best_r = runGA(N=2000, max_gen=1000, stall_gen=25, max_size=1600, breeding_size=128,
+                   death_age=10, mutation_rate=0.15, migration_limit=22)
     print(best_r.toString())
 
 def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50, mutation_rate=0.1,
@@ -81,7 +81,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50, mutation_rate=0.1,
     return best_r
 
 def seed(N: int=200):
-    rs = findResponseSurface(30, 3)
+    rs = findResponseSurface(N // 26 // 5, 5)
     return sample(rs, N)
 
 def migration(rockets: list, scores: list, ages: list, N: int=200):
