@@ -12,7 +12,7 @@ logfile = 'results/ga_results.txt'
 
 def callerGA():
     writeTime()
-    best_r = runGA(N=2000, max_gen=1000, stall_gen=25, max_size=1600, breeding_size=128,
+    best_r = runGA(N=3000, max_gen=1000, stall_gen=25, max_size=2400, breeding_size=128,
                    death_age=10, mutation_rate=0.15, migration_limit=22)
     print(best_r.toString())
 
@@ -81,7 +81,7 @@ def runGA(N: int=200, max_gen: int=1000, stall_gen: int=50, mutation_rate=0.1,
     return best_r
 
 def seed(N: int=200):
-    rs = findResponseSurface(N // 26 // 5, 5)
+    rs = findResponseSurface(N // 25 // 5, 5)
     return sample(rs, N)
 
 def migration(rockets: list, scores: list, ages: list, N: int=200):

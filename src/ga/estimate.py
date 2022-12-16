@@ -64,7 +64,7 @@ def checkOrbitalVelocity(r: Rocket):
 def checkInjectionVelocity(r: Rocket):
     if (r.injection_velocity[0] - GOAL_INJECTION_VEL) < -MAX_TOLERANCE_INJ_VEL:
         # Too slow
-        if not  addEngine(r, stage=r.num_stages):
+        if not addEngine(r, stage=r.num_stages):
             if not addStage(r):
                 r.tECO_S5 += r.tECO_S5 * 0.1
     elif (r.injection_velocity[0] - GOAL_INJECTION_VEL) > MAX_TOLERANCE_INJ_VEL:

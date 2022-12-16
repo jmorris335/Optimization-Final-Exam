@@ -13,8 +13,8 @@ def main():
     # test_analysis()
     # getMasses(213, 3)
     # test_estimate()
-    # callerGA()
-    ml_caller()
+    callerGA()
+    # ml_caller()
 
 if __name__ == '__main__':
     main()
